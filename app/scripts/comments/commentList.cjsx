@@ -3,12 +3,13 @@
 React = require 'react'
   
 module.exports = React.createClass
-  commentNodes = @props.comments.map (comment) ->
-    <Comment author={comment.author}>
-      {comment.text}
-    </Comment>
 
   render: ->    
+    commentNodes = @props.comments.map (comment) ->
+      <Comment author={comment.author}>
+        {comment.text}
+      </Comment>
+
     <div className="commentList">
       {commentNodes}
     </div>
