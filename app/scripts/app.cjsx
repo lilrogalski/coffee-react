@@ -1,10 +1,14 @@
 # @cjsx React.DOM
 
 React = require 'react'
-
-CommentBox = React.createClass
+CommentList = require './comments/commentList'
+CommentForm = require './comments/commentForm'
+  
+module.exports = React.createClass
 
   render: ->    
     <div className="commentBox">
-      Hello, world! I am a CommentBox. 
+      <h1></h1>
+        <CommentList />
+        <CommentForm />
     </div>
