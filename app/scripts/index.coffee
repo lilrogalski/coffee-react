@@ -2,4 +2,5 @@ do ->
   window.React = require 'react'
   App = require './app'
 
-  React.render App, document.body
+  React.renderComponent App({}), document.body
+

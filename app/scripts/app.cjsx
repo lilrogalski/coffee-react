@@ -1,10 +1,10 @@
 # @cjsx React.DOM
 
-React = require 'react/addons'
+React = require 'react'
 
-module.exports = React.createClass
-  render: ->
+CommentBox = React.createClass
+
+  render: ->    
     <div className="commentBox">
-      Hello, world! I am a CommentBox.
+      Hello, world! I am a CommentBox. 
     </div>
-
