@@ -1,11 +1,11 @@
 # @cjsx React.DOM
 
 React = require 'react'
-  
+
 module.exports = React.createClass
 
-  render: ->    
-    @props.comments.map (comment) ->
-      <Comment author={comment.author}>
-        {comment.text}
-      </Comment>
+  render: ->
+    <div className='comment'>
+      <strong>{@props.comment.author}</strong>
+      {@props.comment.text}
+    </div>

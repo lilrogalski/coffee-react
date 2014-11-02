@@ -1,10 +1,14 @@
 # @cjsx React.DOM
 
 React = require 'react'
-  
+Comment = require './comment'
+
 module.exports = React.createClass
 
-  render: ->    
+  render: ->
     <div className="commentList">
-      <Comment/>
+      {
+        @props.comments.map (comment) ->
+          <Comment comment={comment}/>
+      }
     </div>
