@@ -1,7 +1,7 @@
 do ->
   window.React = require 'react'
-  comments = require './comments'
+  data = require './data'
   App = require './app'
 
-  React.renderComponent App(comments: comments), document.body
+  React.renderComponent App(data: data, pollInterval: 2000), document.body
 

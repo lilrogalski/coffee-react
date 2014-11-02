@@ -8,7 +8,7 @@ module.exports = React.createClass
   render: ->
     <div className="commentList">
       {
-        @props.comments.map (comment) ->
+        @props.data.map (comment) ->
           <Comment comment={comment}/>
       }
     </div>
