@@ -27,6 +27,6 @@ module.exports = React.createClass
       <TodoList items={@state.items} />
       <form onSubmit={@handleSubmit}>
         <input onChange={@onChange} value={@state.text} />
-        <button>{'Add #' + (@state.items.length + 1)}</button>
+        <button className="btn btn-default">{'Add #' + (@state.items.length + 1)}</button>
       </form>
     </div>

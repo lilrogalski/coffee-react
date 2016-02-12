@@ -62,3 +62,9 @@ gulp.task 'watch-css', ['css'], ->
 
 
 gulp.task 'default', ['server', 'watch-js', 'watch-css']
+
+gulp.task 'heroku', ->
+  connect.server
+    root: 'public'
+    port: process.env.PORT or 5000
+    livereload: false
