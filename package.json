@@ -18,7 +18,8 @@
     "immutable": "^2.0.4",
     "react": "^0.11.1",
     "react-raf-batching": "git+https://github.com/charlieschwabacher/react-raf-batching.git",
-    "express": "~4.13.4"
+    "express": "~4.13.4",
+    "ejs": "2.3.3"
   },
   "engines": {
     "node": "0.10.21",
