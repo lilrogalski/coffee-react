@@ -22,11 +22,18 @@ module.exports = React.createClass
     @setState({items: nextItems, text: nextText})
   
   render: ->
-    <div>
-      <h3>TODO</h3>
-      <TodoList items={@state.items} />
-      <form onSubmit={@handleSubmit}>
-        <input onChange={@onChange} value={@state.text} />
-        <button className="btn btn-default">{'Add #' + (@state.items.length + 1)}</button>
-      </form>
+    <div className="container">
+      <div className="col-sm-6 col-sm-push-3">
+        <h3>TODO</h3>
+        <TodoList items={@state.items} />
+        <form onSubmit={@handleSubmit}>
+          <div className="input-group">
+            <input type="text" className="form-control" placeholder="Add an item" onChange={@onChange} value={@state.text}/>
+            <span className="input-group-btn">
+              <button className="btn btn-default" type="button">{'Add #' + (@state.items.length + 1)}</button>
+            </span>
+          </div>
+        </form>
+      </div>
     </div>
+

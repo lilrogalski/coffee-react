@@ -4,7 +4,8 @@ source = require 'vinyl-source-stream'
 watchify = require 'watchify'
 browserify = require 'browserify'
 connect = require 'gulp-connect'
-stylus = require 'gulp-stylus'
+sass = require 'gulp-sass'
+sourcemaps = require('gulp-sourcemaps')
 
 
 gulp.task 'server', ->
@@ -43,25 +44,20 @@ gulp.task 'watch-js', ->
   bundle()
 
 
-gulp.task 'css', ->
 
+gulp.task 'sass', ->
   gulp
-    .src './app/styles/index.styl'
-    .pipe stylus
-      sourcemap:
-        inline: true
-        sourceRoot: '.'
-        basePath: 'app/styles'
+    .src './app/styles/index.sass'
+    .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(sourcemaps.write())
     .pipe gulp.dest './public'
-    .pipe connect.reload()
+
+gulp.task 'sass:watch', ->
+  gulp.watch './app/styles/index.sass', [ 'sass' ]
 
 
-gulp.task 'watch-css', ['css'], ->
-
-  gulp.watch ['app/**'], ['css']
-
-
-gulp.task 'default', ['server', 'watch-js', 'watch-css']
+gulp.task 'default', ['server', 'watch-js', 'sass:watch']
 
 gulp.task 'heroku', ->
   connect.server
