@@ -1,0 +1,50 @@
+body 
+  font-family: Avenir 
+  
+h1, 
+h2,
+h3, 
+h4, 
+h5, 
+p,
+a
+  line-height: 1.4em
+  color: #1E1817
+  margin: .5em 0
+  padding: 0
+  +gotham
+  +ease(all, .4s)
+
+  .wf-loading &
+    +opacity(0)
+    visibility: hidden
+
+  .wf-active &
+    +opacity(1)
+
+
+h1
+  font-size: 42px
+  font-weight: 300
+  letter-spacing: -.04em
+
+h2 
+  font-size: 18px
+  font-weight: 100
+
+h3
+  font-size: 18px
+  
+p 
+  font-size: 13px
+  font-weight: 100
+  line-height: 2em
+  color: #7D7D78 
+
+a 
+  +ease(all, .4s)
+  &:hover, 
+  &:visited, 
+  &:focus, 
+  &:active 
+    text-decoration: none !important
