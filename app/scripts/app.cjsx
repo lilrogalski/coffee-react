@@ -4,15 +4,11 @@ React = require 'react'
 CommentList = require './comments/commentList'
 CommentForm = require './comments/commentForm'
 Comment = require './comments/comment'
-data = require './data.coffee'
+CommentBox = require './comments/commentBox'
 
 module.exports = React.createClass
-  
+
   render: ->
     <div className="container">
-      <div className="commentBox">
-        <h1>Comments</h1>
-        <CommentList data={data} />
-        <CommentForm />
-      </div>
+      <CommentBox url="/api/comments" pollInterval={2000} />
     </div>

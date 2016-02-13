@@ -12,7 +12,7 @@ gulp.task 'server', ->
 
   connect.server
     root: 'public'
-    port: 3001
+    port: 3000
     reload: true
 
 
