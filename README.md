@@ -1,2 +1,2 @@
-# react boilerplate w/coffee & stylus #
+# react boilerplate w/coffee & bootstrap sass #
 
