@@ -5,7 +5,7 @@ watchify = require 'watchify'
 browserify = require 'browserify'
 connect = require 'gulp-connect'
 sass = require 'gulp-sass'
-sourcemaps = require('gulp-sourcemaps')
+sourcemaps = require 'gulp-sourcemaps'
 
 
 gulp.task 'server', ->
@@ -47,14 +47,14 @@ gulp.task 'watch-js', ->
 
 gulp.task 'sass', ->
   gulp
-    .src './app/styles/index.sass'
+    .src './app/styles/style.sass'
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
     .pipe gulp.dest './public'
 
 gulp.task 'sass:watch', ->
-  gulp.watch './app/styles/index.sass', [ 'sass' ]
+  gulp.watch './app/styles/style.sass', [ 'sass' ]
 
 
 gulp.task 'default', ['server', 'watch-js', 'sass:watch']
