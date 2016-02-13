@@ -4,5 +4,5 @@ module.exports = React.createClass
 
   render: ->
     <div className="container">
-      testing
+      This is a demoComponent
     </div>
