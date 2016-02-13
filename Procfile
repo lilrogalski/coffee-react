@@ -1,1 +1,1 @@
-web: gulp heroku
+web: node index.js
