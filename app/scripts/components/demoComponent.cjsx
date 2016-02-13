@@ -6,3 +6,4 @@ module.exports = React.createClass
     <div className="demoComponent">
       This is a demoComponent
     </div>
+

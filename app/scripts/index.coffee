@@ -1,6 +1,10 @@
 do ->
   window.React = require 'react'
+  ReactDOM = require 'react-dom'
   App = require './app'
 
-  React.renderComponent App(), document.body
+  ReactDOM.render(
+    React.createElement(App, null, null),
+    document.body
+  )
 
