@@ -9,6 +9,6 @@ module.exports = React.createClass
   render: ->
     <div className="commentBox container">
       <h1>Comments</h1>
-      <CommentList />
+      <CommentList data={@props.data}/>
       <CommentForm />
     </div>
