@@ -1,9 +1,11 @@
 React = require 'react'
+Comment = require "./comment"
 
 module.exports = React.createClass
 
   render: ->
 
     <div className="commentList">
-      Hello, world! I am a CommentList.
+      <Comment author="Pete Hunt">This is one comment</Comment>
+      <Comment author="Jordan Walke">This is *another* comment</Comment>
     </div>
