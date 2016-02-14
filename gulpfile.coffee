@@ -4,6 +4,7 @@ source = require 'vinyl-source-stream'
 watchify = require 'watchify'
 browserify = require 'browserify'
 connect = require 'gulp-connect'
+cjsx = require 'gulp-cjsx'
 sass = require 'gulp-sass'
 sourcemaps = require 'gulp-sourcemaps'
 
@@ -22,7 +23,7 @@ gulp.task 'watch-js', ->
     cache: {}
     packageCache: {}
     fullPaths: true
-    entries: ['./app/scripts/index.coffee']
+    entries: ['./app/scripts/index.cjsx']
     extensions: ['.coffee', '.cjsx']
     debug: true
 
