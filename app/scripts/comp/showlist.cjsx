@@ -3,8 +3,8 @@ React = require 'react'
 module.exports = React.createClass
   
   render: ->
-    listItems = @props.names.map((friend)->
-      <li>{friend}</li>
+    listItems = @props.names.map((friend, i)->
+      <li key={i}>{friend}</li>
     )
 
     <div>
