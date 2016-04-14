@@ -17,6 +17,7 @@
     "gulp-util": "^3.0.7",
     "react": "^0.14.7",
     "react-dom": "~0.14.7",
+    "react-motion": "^0.4.2",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   },
