@@ -1,28 +1,27 @@
 React = require 'react'
 ReactDOM = require 'react-dom'
 
-ShowList = require './comp/showlist'
-AddFriend = require './comp/addfriend'
-
 App = React.createClass
   
   getInitialState: ->
+    alert "in getInitialState"
     name: "Ryan Rogalski"
-    friends: [
-      "Alexa Wright",
-      "George Parker",
-      "Pat Marion"
-    ]
 
-  addFriend: (friend) ->
-    @setState 
-      friends: @state.friends.concat friend
+  componentWillMount: ->
+    alert "in componentWillMount"
+
+  componentDidMount: ->
+    alert "in componentDidMount"
+
+  componentWillReceiveProps: (nextProps) ->
+    alert "in componentWillReceiveProps"
+
+  componentWillUnmount: ->
+
 
   render: ->
     <div>
       <h3> Name: {@state.name} </h3>
-      <AddFriend addNew={@addFriend} />
-      <ShowList names={@state.friends} />
     </div>
 
 
