@@ -1,13 +1,17 @@
 React = require 'react'
 ReactDOM = require 'react-dom'
-CommentBox = require './comp/commentBox'
 
-data = [
-  {id: 1, author: "Pete Hunt", text: "This is one comment"},
-  {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
-]
+HelloUser = React.createClass
+  getInitialState: ->
+    username: '@ryan'
+
+  render: ->
+    <div>
+      Hello {@state.username}
+    </div>
+
 
 ReactDOM.render(
-  <CommentBox url="/api/comments" />,
+  <HelloUser />,
   document.getElementById('app')
 );

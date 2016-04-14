@@ -9,15 +9,16 @@ sass = require 'gulp-sass'
 sourcemaps = require 'gulp-sourcemaps'
 
 
+
 gulp.task 'server', ->
 
   connect.server
     root: 'public'
     port: 3001
-    reload: true
+    livereload: true
 
 
-gulp.task 'watch-js', ->
+gulp.task 'js', ->
 
   bundler = watchify browserify
     cache: {}
@@ -43,8 +44,10 @@ gulp.task 'watch-js', ->
 
   bundler.on 'update', bundle
   bundle()
+  .pipe connect.reload()
 
-
+gulp.task 'watch-js', ['js'], ->
+  gulp.watch ['./app/scripts/**'], ['js']
 
 gulp.task 'sass', ->
   gulp
@@ -53,12 +56,12 @@ gulp.task 'sass', ->
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
     .pipe gulp.dest './public'
+    .pipe connect.reload()
 
-gulp.task 'sass:watch', ->
+gulp.task 'watch-sass', ->
   gulp.watch './app/styles/style.sass', [ 'sass' ]
 
-
-gulp.task 'default', ['server', 'watch-js', 'sass:watch']
+gulp.task 'default', ['server', 'watch-js', 'watch-sass']
 
 gulp.task 'heroku', ->
   connect.server
