@@ -1,22 +1,26 @@
 React = require 'react'
 ReactDOM = require 'react-dom'
 
-HelloUser = React.createClass
-  getInitialState: ->
-    username: '@ryan'
+ShowList = require './comp/showlist'
 
-  handleChange: (e) ->
-    @setState
-      username: e.target.value
+HelloUser = React.createClass
+  
+  getInitialState: ->
+    name: "Ryan Rogalski"
+    friends: [
+      "Alexa Wright",
+      "George Parker",
+      "Pat Marion"
+    ]
 
   render: ->
     <div>
-      Hello {@state.username} <br />
-      Change name: <input type="text" value={@state.username} onChange={@handleChange}/>
+      <h3> Name: {this.state.name} </h3>
+      <ShowList names={this.state.friends} />
     </div>
 
 
 ReactDOM.render(
-  <HelloUser />,
+  <HelloUser name="Ryan" />,
   document.getElementById('app')
 );
