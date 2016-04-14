@@ -5,9 +5,14 @@ HelloUser = React.createClass
   getInitialState: ->
     username: '@ryan'
 
+  handleChange: (e) ->
+    @setState
+      username: e.target.value
+
   render: ->
     <div>
-      Hello {@state.username}
+      Hello {@state.username} <br />
+      Change name: <input type="text" value={@state.username} onChange={@handleChange}/>
     </div>
 
 
