@@ -14,17 +14,28 @@ data = [
   {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
 ]
 
-App = React.createClass
+FilterableProductTable = React.createClass
+  
+  getInitialState: ->
+    filterText: ''
+    inStockOnly: false
   
   render: ->
     <div>
-      <SearchBar />
-      <ProductTable products={@props.products} />
+      <SearchBar 
+        filterText={@state.filterText}
+        inStockOnly={@state.inStockOnly}
+      />
+      <ProductTable 
+        products={@props.products} 
+        filterText={@state.filterText} 
+        inStockOnly={@state.inStockOnly} 
+      />
     </div>
 
 
 
 ReactDOM.render(
-  <App products={data}/>,
+  <FilterableProductTable products={data}/>,
   document.getElementById('app')
 );
