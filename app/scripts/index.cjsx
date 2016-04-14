@@ -19,12 +19,18 @@ FilterableProductTable = React.createClass
   getInitialState: ->
     filterText: ''
     inStockOnly: false
-  
+
+  handleUserInput: (filterText, inStockOnly) ->
+    @setState
+      filterText: filterText
+      inStockOnly: inStockOnly
+
   render: ->
     <div>
       <SearchBar 
         filterText={@state.filterText}
         inStockOnly={@state.inStockOnly}
+        onUserInput={@handleUserInput}
       />
       <ProductTable 
         products={@props.products} 
