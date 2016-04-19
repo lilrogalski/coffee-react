@@ -15,9 +15,9 @@ Picture = React.createClass
     @props.onClick @props.id
     
   render: ->
-    classes = 'picture ' + (if @props.favorite then 'favorite' else '')
+    pictureClass = "picture #{if @props.favorite then 'favorite' else ''}"
 
-    <div className={classes} onClick={@clickHandler}>
+    <div className={pictureClass} onClick={@clickHandler}>
       <img src={@props.src} width="200" title={@props.title} />
     </div>
 
