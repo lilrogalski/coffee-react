@@ -4,8 +4,9 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# ignore public directory
-public
+# ignore public css/js
+public/index.js
+public/style.css
 
 # Ignore bundler config.
 /.bundle
