@@ -1,56 +1,39 @@
 // @import partials/reset
 // @import bootstrap/bootstrap
 
-* 
-  padding: 0
-  margin: 0
-
-
-html
-  font: 14px normal Arial, sans-serif
-  color: #626771
-  background-color: #fff
-
-
-body
+.item
+  display: flex
+  align-items: center
+  border-bottom: 1px solid #DDD
   padding: 20px
-  text-align: center
-
-
+  &__pic
+    width: 100px
+    height: 100px
+    flex: 0 0 100px
+    margin-right: 20px
+    overflow: hidden
+    border-radius: 100%
+    img
+      width: 100%
+      height: auto
+  &__content
+    word-wrap: break-word
+  &__author
+    font-weight: 700
+    font-size: 18px
+    margin-bottom: 15px
+  &__text
+    
 h1
-  font-size: 18px
-  margin-bottom: 30px
-  padding-top: 20px
-
-
-div.picture
-  display: inline-block
-  margin: 5px
-  cursor: pointer
-  position: relative
-
-
-div.picture.favorite:after
-  content: '❤'
-  position: absolute
-  font-size: 80px
-  line-height: 200px
-  color: #FF224D
-  width: 100%
   text-align: center
-  left: 0
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5)
-  font-weight: bold
+  
+.animation-enter
+  opacity: 0
+  transform: perspective(1000px) rotateX(70deg) translateY(-3em)
+  background: #FFFBE6
 
-
-.pictures, .favorites
-  white-space: nowrap
-  overflow-y: auto
-  margin-bottom: 20px
-  height: 230px
-  background-color: #F3F3F3
-
-
-.pictures p, .favorites p 
-  padding-top: 100px
-  font-size: 13px
+.animation-enter.animation-enter-active
+  opacity: 1
+  transform: perspective(1000px) rotateX(0deg) translateY(0)
+  background: transparent
+  transition: opacity .5s ease-out, transform .5s ease-out, background 1s ease

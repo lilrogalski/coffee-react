@@ -1,0 +1,1827 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ryanr/.nvm/versions/node/v4.3.0/bin/node',
+1 verbose cli   '/Users/ryanr/.nvm/versions/node/v4.3.0/bin/npm',
+1 verbose cli   'update' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.0
+4 silly mapToRegistry name body-parser
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+8 silly mapToRegistry name cjsxify
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/cjsxify
+12 silly mapToRegistry name ejs
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/ejs
+16 silly mapToRegistry name express
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/express
+20 silly mapToRegistry name gulp-cjsx
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/gulp-cjsx
+24 silly mapToRegistry name gulp-util
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+28 silly mapToRegistry name react
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/react
+32 silly mapToRegistry name react-dom
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+36 silly mapToRegistry name react-motion
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/react-motion
+40 silly mapToRegistry name rebass
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/rebass
+44 silly mapToRegistry name vinyl-source-stream
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/vinyl-source-stream
+48 silly mapToRegistry name watchify
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/watchify
+52 silly mapToRegistry name browserify
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/browserify
+56 silly mapToRegistry name coffee-script
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+60 silly mapToRegistry name gulp
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/gulp
+64 silly mapToRegistry name gulp-connect
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+68 silly mapToRegistry name gulp-sass
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+72 silly mapToRegistry name gulp-sourcemaps
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+76 verbose request uri https://registry.npmjs.org/cjsxify
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 1:01:39 PM
+79 verbose request id 2e834453cacc7d1d
+80 verbose etag "7N732ORHS8O6349QNIWF3EXUJ"
+81 http request GET https://registry.npmjs.org/cjsxify
+82 verbose request uri https://registry.npmjs.org/ejs
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 1:01:40 PM
+85 verbose etag "IU1FN2KH1B28R3KS878ZYZMC"
+86 http request GET https://registry.npmjs.org/ejs
+87 verbose request uri https://registry.npmjs.org/gulp-cjsx
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 1:01:40 PM
+90 verbose etag "78VUG4FKZKXTKWZTUC7SLRPDN"
+91 http request GET https://registry.npmjs.org/gulp-cjsx
+92 verbose request uri https://registry.npmjs.org/gulp-util
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 1:01:40 PM
+95 verbose etag "VP0HK65MFBEO79D8ILBE5BX0"
+96 http request GET https://registry.npmjs.org/gulp-util
+97 verbose request uri https://registry.npmjs.org/react-motion
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 1:01:40 PM
+100 verbose etag "4U8ZDB29FO0PRJOO9XF7ZWW4D"
+101 http request GET https://registry.npmjs.org/react-motion
+102 verbose request uri https://registry.npmjs.org/react-dom
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 1:01:40 PM
+105 verbose etag "9X2N0V3C4JPH15JKN45ZT3J6Q"
+106 http request GET https://registry.npmjs.org/react-dom
+107 verbose request uri https://registry.npmjs.org/body-parser
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 1:01:40 PM
+110 verbose etag "CKT2RJ5F04S2SDZESP3RMG1K1"
+111 http request GET https://registry.npmjs.org/body-parser
+112 verbose request uri https://registry.npmjs.org/rebass
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 1:01:40 PM
+115 verbose etag "CP3V5IXXEQ3KN5MGPXMSZZ1GL"
+116 http request GET https://registry.npmjs.org/rebass
+117 verbose request uri https://registry.npmjs.org/express
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 1:01:40 PM
+120 verbose etag "1WQHUQAI7TQAQ7HQ1KGIN8GQ"
+121 http request GET https://registry.npmjs.org/express
+122 verbose request uri https://registry.npmjs.org/vinyl-source-stream
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 1:01:40 PM
+125 verbose etag "2TZ39GQ0KA1X6K52XBDTSRM7R"
+126 http request GET https://registry.npmjs.org/vinyl-source-stream
+127 verbose request uri https://registry.npmjs.org/react
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 1:01:40 PM
+130 verbose etag "B0MSQNAIPVG6H8MDVQ57OMAFH"
+131 http request GET https://registry.npmjs.org/react
+132 verbose request uri https://registry.npmjs.org/coffee-script
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 1:01:40 PM
+135 verbose etag "8TCAF9MCAIKNBJ4QK3J2KMSXT"
+136 http request GET https://registry.npmjs.org/coffee-script
+137 verbose request uri https://registry.npmjs.org/watchify
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 1:01:40 PM
+140 verbose etag "BSMZIGQW0BK7JIJFIC6YK7XMU"
+141 http request GET https://registry.npmjs.org/watchify
+142 verbose request uri https://registry.npmjs.org/gulp-connect
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 1:01:40 PM
+145 verbose etag "CERIFF2UDZXLTRMIIDISO9QXL"
+146 http request GET https://registry.npmjs.org/gulp-connect
+147 verbose request uri https://registry.npmjs.org/gulp
+148 verbose request no auth needed
+149 info attempt registry request try #1 at 1:01:40 PM
+150 verbose etag "EV0DIT55ZRB50DXE47PTTDCHY"
+151 http request GET https://registry.npmjs.org/gulp
+152 verbose request uri https://registry.npmjs.org/gulp-sass
+153 verbose request no auth needed
+154 info attempt registry request try #1 at 1:01:40 PM
+155 verbose etag "8SX8TR5N338P0EMO9J21VRJI4"
+156 http request GET https://registry.npmjs.org/gulp-sass
+157 verbose request uri https://registry.npmjs.org/gulp-sourcemaps
+158 verbose request no auth needed
+159 info attempt registry request try #1 at 1:01:40 PM
+160 verbose etag "E7OM996NY2AQ3EKCCMWQ9ZP8H"
+161 http request GET https://registry.npmjs.org/gulp-sourcemaps
+162 verbose request uri https://registry.npmjs.org/browserify
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 1:01:40 PM
+165 verbose etag "4T9B3HORF5V7459ENI4BJPP0G"
+166 http request GET https://registry.npmjs.org/browserify
+167 http 304 https://registry.npmjs.org/vinyl-source-stream
+168 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+168 verbose headers   via: '1.1 varnish',
+168 verbose headers   'cache-control': 'max-age=300',
+168 verbose headers   etag: '"2TZ39GQ0KA1X6K52XBDTSRM7R"',
+168 verbose headers   age: '279',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+168 verbose headers   'x-cache': 'HIT',
+168 verbose headers   'x-cache-hits': '1',
+168 verbose headers   'x-timer': 'S1461268900.286169,VS0,VE0',
+168 verbose headers   vary: 'Accept-Encoding' }
+169 silly get cb [ 304,
+169 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+169 silly get     via: '1.1 varnish',
+169 silly get     'cache-control': 'max-age=300',
+169 silly get     etag: '"2TZ39GQ0KA1X6K52XBDTSRM7R"',
+169 silly get     age: '279',
+169 silly get     connection: 'keep-alive',
+169 silly get     'x-served-by': 'cache-sjc3135-SJC',
+169 silly get     'x-cache': 'HIT',
+169 silly get     'x-cache-hits': '1',
+169 silly get     'x-timer': 'S1461268900.286169,VS0,VE0',
+169 silly get     vary: 'Accept-Encoding' } ]
+170 verbose etag https://registry.npmjs.org/vinyl-source-stream from cache
+171 verbose get saving vinyl-source-stream to /Users/ryanr/.npm/registry.npmjs.org/vinyl-source-stream/.cache.json
+172 http 304 https://registry.npmjs.org/rebass
+173 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+173 verbose headers   via: '1.1 varnish',
+173 verbose headers   'cache-control': 'max-age=300',
+173 verbose headers   etag: '"CP3V5IXXEQ3KN5MGPXMSZZ1GL"',
+173 verbose headers   age: '30',
+173 verbose headers   connection: 'keep-alive',
+173 verbose headers   'x-served-by': 'cache-sjc3129-SJC',
+173 verbose headers   'x-cache': 'HIT',
+173 verbose headers   'x-cache-hits': '1',
+173 verbose headers   'x-timer': 'S1461268900.287003,VS0,VE0',
+173 verbose headers   vary: 'Accept-Encoding' }
+174 silly get cb [ 304,
+174 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+174 silly get     via: '1.1 varnish',
+174 silly get     'cache-control': 'max-age=300',
+174 silly get     etag: '"CP3V5IXXEQ3KN5MGPXMSZZ1GL"',
+174 silly get     age: '30',
+174 silly get     connection: 'keep-alive',
+174 silly get     'x-served-by': 'cache-sjc3129-SJC',
+174 silly get     'x-cache': 'HIT',
+174 silly get     'x-cache-hits': '1',
+174 silly get     'x-timer': 'S1461268900.287003,VS0,VE0',
+174 silly get     vary: 'Accept-Encoding' } ]
+175 verbose etag https://registry.npmjs.org/rebass from cache
+176 verbose get saving rebass to /Users/ryanr/.npm/registry.npmjs.org/rebass/.cache.json
+177 http 304 https://registry.npmjs.org/gulp-util
+178 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+178 verbose headers   via: '1.1 varnish',
+178 verbose headers   'cache-control': 'max-age=300',
+178 verbose headers   etag: '"VP0HK65MFBEO79D8ILBE5BX0"',
+178 verbose headers   age: '96',
+178 verbose headers   connection: 'keep-alive',
+178 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
+178 verbose headers   'x-cache': 'HIT',
+178 verbose headers   'x-cache-hits': '3',
+178 verbose headers   'x-timer': 'S1461268900.293248,VS0,VE0',
+178 verbose headers   vary: 'Accept-Encoding' }
+179 silly get cb [ 304,
+179 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+179 silly get     via: '1.1 varnish',
+179 silly get     'cache-control': 'max-age=300',
+179 silly get     etag: '"VP0HK65MFBEO79D8ILBE5BX0"',
+179 silly get     age: '96',
+179 silly get     connection: 'keep-alive',
+179 silly get     'x-served-by': 'cache-sjc3125-SJC',
+179 silly get     'x-cache': 'HIT',
+179 silly get     'x-cache-hits': '3',
+179 silly get     'x-timer': 'S1461268900.293248,VS0,VE0',
+179 silly get     vary: 'Accept-Encoding' } ]
+180 verbose etag https://registry.npmjs.org/gulp-util from cache
+181 verbose get saving gulp-util to /Users/ryanr/.npm/registry.npmjs.org/gulp-util/.cache.json
+182 http 304 https://registry.npmjs.org/gulp-sourcemaps
+183 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+183 verbose headers   via: '1.1 varnish',
+183 verbose headers   'cache-control': 'max-age=300',
+183 verbose headers   etag: '"E7OM996NY2AQ3EKCCMWQ9ZP8H"',
+183 verbose headers   age: '166',
+183 verbose headers   connection: 'keep-alive',
+183 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+183 verbose headers   'x-cache': 'HIT',
+183 verbose headers   'x-cache-hits': '2',
+183 verbose headers   'x-timer': 'S1461268900.300800,VS0,VE0',
+183 verbose headers   vary: 'Accept-Encoding' }
+184 silly get cb [ 304,
+184 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+184 silly get     via: '1.1 varnish',
+184 silly get     'cache-control': 'max-age=300',
+184 silly get     etag: '"E7OM996NY2AQ3EKCCMWQ9ZP8H"',
+184 silly get     age: '166',
+184 silly get     connection: 'keep-alive',
+184 silly get     'x-served-by': 'cache-sjc3123-SJC',
+184 silly get     'x-cache': 'HIT',
+184 silly get     'x-cache-hits': '2',
+184 silly get     'x-timer': 'S1461268900.300800,VS0,VE0',
+184 silly get     vary: 'Accept-Encoding' } ]
+185 verbose etag https://registry.npmjs.org/gulp-sourcemaps from cache
+186 verbose get saving gulp-sourcemaps to /Users/ryanr/.npm/registry.npmjs.org/gulp-sourcemaps/.cache.json
+187 http 304 https://registry.npmjs.org/body-parser
+188 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+188 verbose headers   via: '1.1 varnish',
+188 verbose headers   'cache-control': 'max-age=300',
+188 verbose headers   etag: '"CKT2RJ5F04S2SDZESP3RMG1K1"',
+188 verbose headers   age: '204',
+188 verbose headers   connection: 'keep-alive',
+188 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+188 verbose headers   'x-cache': 'HIT',
+188 verbose headers   'x-cache-hits': '10',
+188 verbose headers   'x-timer': 'S1461268900.301791,VS0,VE0',
+188 verbose headers   vary: 'Accept-Encoding' }
+189 silly get cb [ 304,
+189 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+189 silly get     via: '1.1 varnish',
+189 silly get     'cache-control': 'max-age=300',
+189 silly get     etag: '"CKT2RJ5F04S2SDZESP3RMG1K1"',
+189 silly get     age: '204',
+189 silly get     connection: 'keep-alive',
+189 silly get     'x-served-by': 'cache-sjc3133-SJC',
+189 silly get     'x-cache': 'HIT',
+189 silly get     'x-cache-hits': '10',
+189 silly get     'x-timer': 'S1461268900.301791,VS0,VE0',
+189 silly get     vary: 'Accept-Encoding' } ]
+190 verbose etag https://registry.npmjs.org/body-parser from cache
+191 verbose get saving body-parser to /Users/ryanr/.npm/registry.npmjs.org/body-parser/.cache.json
+192 http 304 https://registry.npmjs.org/ejs
+193 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+193 verbose headers   via: '1.1 varnish',
+193 verbose headers   'cache-control': 'max-age=300',
+193 verbose headers   etag: '"IU1FN2KH1B28R3KS878ZYZMC"',
+193 verbose headers   age: '36',
+193 verbose headers   connection: 'keep-alive',
+193 verbose headers   'x-served-by': 'cache-sjc3130-SJC',
+193 verbose headers   'x-cache': 'HIT',
+193 verbose headers   'x-cache-hits': '1',
+193 verbose headers   'x-timer': 'S1461268900.301301,VS0,VE0',
+193 verbose headers   vary: 'Accept-Encoding' }
+194 silly get cb [ 304,
+194 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+194 silly get     via: '1.1 varnish',
+194 silly get     'cache-control': 'max-age=300',
+194 silly get     etag: '"IU1FN2KH1B28R3KS878ZYZMC"',
+194 silly get     age: '36',
+194 silly get     connection: 'keep-alive',
+194 silly get     'x-served-by': 'cache-sjc3130-SJC',
+194 silly get     'x-cache': 'HIT',
+194 silly get     'x-cache-hits': '1',
+194 silly get     'x-timer': 'S1461268900.301301,VS0,VE0',
+194 silly get     vary: 'Accept-Encoding' } ]
+195 verbose etag https://registry.npmjs.org/ejs from cache
+196 verbose get saving ejs to /Users/ryanr/.npm/registry.npmjs.org/ejs/.cache.json
+197 http 304 https://registry.npmjs.org/react-motion
+198 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+198 verbose headers   via: '1.1 varnish',
+198 verbose headers   'cache-control': 'max-age=300',
+198 verbose headers   etag: '"4U8ZDB29FO0PRJOO9XF7ZWW4D"',
+198 verbose headers   age: '30',
+198 verbose headers   connection: 'keep-alive',
+198 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+198 verbose headers   'x-cache': 'HIT',
+198 verbose headers   'x-cache-hits': '1',
+198 verbose headers   'x-timer': 'S1461268900.299787,VS0,VE0',
+198 verbose headers   vary: 'Accept-Encoding' }
+199 silly get cb [ 304,
+199 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+199 silly get     via: '1.1 varnish',
+199 silly get     'cache-control': 'max-age=300',
+199 silly get     etag: '"4U8ZDB29FO0PRJOO9XF7ZWW4D"',
+199 silly get     age: '30',
+199 silly get     connection: 'keep-alive',
+199 silly get     'x-served-by': 'cache-sjc3120-SJC',
+199 silly get     'x-cache': 'HIT',
+199 silly get     'x-cache-hits': '1',
+199 silly get     'x-timer': 'S1461268900.299787,VS0,VE0',
+199 silly get     vary: 'Accept-Encoding' } ]
+200 verbose etag https://registry.npmjs.org/react-motion from cache
+201 verbose get saving react-motion to /Users/ryanr/.npm/registry.npmjs.org/react-motion/.cache.json
+202 http 304 https://registry.npmjs.org/express
+203 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+203 verbose headers   via: '1.1 varnish',
+203 verbose headers   'cache-control': 'max-age=300',
+203 verbose headers   etag: '"1WQHUQAI7TQAQ7HQ1KGIN8GQ"',
+203 verbose headers   age: '172',
+203 verbose headers   connection: 'keep-alive',
+203 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+203 verbose headers   'x-cache': 'HIT',
+203 verbose headers   'x-cache-hits': '17',
+203 verbose headers   'x-timer': 'S1461268900.299792,VS0,VE0',
+203 verbose headers   vary: 'Accept-Encoding' }
+204 silly get cb [ 304,
+204 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+204 silly get     via: '1.1 varnish',
+204 silly get     'cache-control': 'max-age=300',
+204 silly get     etag: '"1WQHUQAI7TQAQ7HQ1KGIN8GQ"',
+204 silly get     age: '172',
+204 silly get     connection: 'keep-alive',
+204 silly get     'x-served-by': 'cache-sjc3122-SJC',
+204 silly get     'x-cache': 'HIT',
+204 silly get     'x-cache-hits': '17',
+204 silly get     'x-timer': 'S1461268900.299792,VS0,VE0',
+204 silly get     vary: 'Accept-Encoding' } ]
+205 verbose etag https://registry.npmjs.org/express from cache
+206 verbose get saving express to /Users/ryanr/.npm/registry.npmjs.org/express/.cache.json
+207 http 304 https://registry.npmjs.org/cjsxify
+208 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+208 verbose headers   via: '1.1 varnish',
+208 verbose headers   'cache-control': 'max-age=300',
+208 verbose headers   etag: '"7N732ORHS8O6349QNIWF3EXUJ"',
+208 verbose headers   age: '30',
+208 verbose headers   connection: 'keep-alive',
+208 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+208 verbose headers   'x-cache': 'HIT',
+208 verbose headers   'x-cache-hits': '1',
+208 verbose headers   'x-timer': 'S1461268900.299424,VS0,VE0',
+208 verbose headers   vary: 'Accept-Encoding' }
+209 silly get cb [ 304,
+209 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+209 silly get     via: '1.1 varnish',
+209 silly get     'cache-control': 'max-age=300',
+209 silly get     etag: '"7N732ORHS8O6349QNIWF3EXUJ"',
+209 silly get     age: '30',
+209 silly get     connection: 'keep-alive',
+209 silly get     'x-served-by': 'cache-sjc3120-SJC',
+209 silly get     'x-cache': 'HIT',
+209 silly get     'x-cache-hits': '1',
+209 silly get     'x-timer': 'S1461268900.299424,VS0,VE0',
+209 silly get     vary: 'Accept-Encoding' } ]
+210 verbose etag https://registry.npmjs.org/cjsxify from cache
+211 verbose get saving cjsxify to /Users/ryanr/.npm/registry.npmjs.org/cjsxify/.cache.json
+212 http 304 https://registry.npmjs.org/react-dom
+213 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+213 verbose headers   via: '1.1 varnish',
+213 verbose headers   'cache-control': 'max-age=300',
+213 verbose headers   etag: '"9X2N0V3C4JPH15JKN45ZT3J6Q"',
+213 verbose headers   age: '113',
+213 verbose headers   connection: 'keep-alive',
+213 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+213 verbose headers   'x-cache': 'HIT',
+213 verbose headers   'x-cache-hits': '2',
+213 verbose headers   'x-timer': 'S1461268900.306656,VS0,VE0',
+213 verbose headers   vary: 'Accept-Encoding' }
+214 silly get cb [ 304,
+214 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+214 silly get     via: '1.1 varnish',
+214 silly get     'cache-control': 'max-age=300',
+214 silly get     etag: '"9X2N0V3C4JPH15JKN45ZT3J6Q"',
+214 silly get     age: '113',
+214 silly get     connection: 'keep-alive',
+214 silly get     'x-served-by': 'cache-sjc3123-SJC',
+214 silly get     'x-cache': 'HIT',
+214 silly get     'x-cache-hits': '2',
+214 silly get     'x-timer': 'S1461268900.306656,VS0,VE0',
+214 silly get     vary: 'Accept-Encoding' } ]
+215 verbose etag https://registry.npmjs.org/react-dom from cache
+216 verbose get saving react-dom to /Users/ryanr/.npm/registry.npmjs.org/react-dom/.cache.json
+217 http 304 https://registry.npmjs.org/gulp-cjsx
+218 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+218 verbose headers   via: '1.1 varnish',
+218 verbose headers   'cache-control': 'max-age=300',
+218 verbose headers   etag: '"78VUG4FKZKXTKWZTUC7SLRPDN"',
+218 verbose headers   age: '30',
+218 verbose headers   connection: 'keep-alive',
+218 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
+218 verbose headers   'x-cache': 'HIT',
+218 verbose headers   'x-cache-hits': '1',
+218 verbose headers   'x-timer': 'S1461268900.305906,VS0,VE0',
+218 verbose headers   vary: 'Accept-Encoding' }
+219 silly get cb [ 304,
+219 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+219 silly get     via: '1.1 varnish',
+219 silly get     'cache-control': 'max-age=300',
+219 silly get     etag: '"78VUG4FKZKXTKWZTUC7SLRPDN"',
+219 silly get     age: '30',
+219 silly get     connection: 'keep-alive',
+219 silly get     'x-served-by': 'cache-sjc3125-SJC',
+219 silly get     'x-cache': 'HIT',
+219 silly get     'x-cache-hits': '1',
+219 silly get     'x-timer': 'S1461268900.305906,VS0,VE0',
+219 silly get     vary: 'Accept-Encoding' } ]
+220 verbose etag https://registry.npmjs.org/gulp-cjsx from cache
+221 verbose get saving gulp-cjsx to /Users/ryanr/.npm/registry.npmjs.org/gulp-cjsx/.cache.json
+222 http 304 https://registry.npmjs.org/gulp-connect
+223 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+223 verbose headers   via: '1.1 varnish',
+223 verbose headers   'cache-control': 'max-age=300',
+223 verbose headers   etag: '"CERIFF2UDZXLTRMIIDISO9QXL"',
+223 verbose headers   age: '30',
+223 verbose headers   connection: 'keep-alive',
+223 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
+223 verbose headers   'x-cache': 'HIT',
+223 verbose headers   'x-cache-hits': '99',
+223 verbose headers   'x-timer': 'S1461268900.312828,VS0,VE0',
+223 verbose headers   vary: 'Accept-Encoding' }
+224 silly get cb [ 304,
+224 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+224 silly get     via: '1.1 varnish',
+224 silly get     'cache-control': 'max-age=300',
+224 silly get     etag: '"CERIFF2UDZXLTRMIIDISO9QXL"',
+224 silly get     age: '30',
+224 silly get     connection: 'keep-alive',
+224 silly get     'x-served-by': 'cache-sjc3134-SJC',
+224 silly get     'x-cache': 'HIT',
+224 silly get     'x-cache-hits': '99',
+224 silly get     'x-timer': 'S1461268900.312828,VS0,VE0',
+224 silly get     vary: 'Accept-Encoding' } ]
+225 verbose etag https://registry.npmjs.org/gulp-connect from cache
+226 verbose get saving gulp-connect to /Users/ryanr/.npm/registry.npmjs.org/gulp-connect/.cache.json
+227 http 304 https://registry.npmjs.org/gulp
+228 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+228 verbose headers   via: '1.1 varnish',
+228 verbose headers   'cache-control': 'max-age=300',
+228 verbose headers   etag: '"EV0DIT55ZRB50DXE47PTTDCHY"',
+228 verbose headers   age: '131',
+228 verbose headers   connection: 'keep-alive',
+228 verbose headers   'x-served-by': 'cache-sjc3121-SJC',
+228 verbose headers   'x-cache': 'HIT',
+228 verbose headers   'x-cache-hits': '6',
+228 verbose headers   'x-timer': 'S1461268900.312808,VS0,VE0',
+228 verbose headers   vary: 'Accept-Encoding' }
+229 silly get cb [ 304,
+229 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+229 silly get     via: '1.1 varnish',
+229 silly get     'cache-control': 'max-age=300',
+229 silly get     etag: '"EV0DIT55ZRB50DXE47PTTDCHY"',
+229 silly get     age: '131',
+229 silly get     connection: 'keep-alive',
+229 silly get     'x-served-by': 'cache-sjc3121-SJC',
+229 silly get     'x-cache': 'HIT',
+229 silly get     'x-cache-hits': '6',
+229 silly get     'x-timer': 'S1461268900.312808,VS0,VE0',
+229 silly get     vary: 'Accept-Encoding' } ]
+230 verbose etag https://registry.npmjs.org/gulp from cache
+231 verbose get saving gulp to /Users/ryanr/.npm/registry.npmjs.org/gulp/.cache.json
+232 http 304 https://registry.npmjs.org/watchify
+233 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+233 verbose headers   via: '1.1 varnish',
+233 verbose headers   'cache-control': 'max-age=300',
+233 verbose headers   etag: '"BSMZIGQW0BK7JIJFIC6YK7XMU"',
+233 verbose headers   age: '93',
+233 verbose headers   connection: 'keep-alive',
+233 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+233 verbose headers   'x-cache': 'HIT',
+233 verbose headers   'x-cache-hits': '1',
+233 verbose headers   'x-timer': 'S1461268900.313162,VS0,VE0',
+233 verbose headers   vary: 'Accept-Encoding' }
+234 silly get cb [ 304,
+234 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+234 silly get     via: '1.1 varnish',
+234 silly get     'cache-control': 'max-age=300',
+234 silly get     etag: '"BSMZIGQW0BK7JIJFIC6YK7XMU"',
+234 silly get     age: '93',
+234 silly get     connection: 'keep-alive',
+234 silly get     'x-served-by': 'cache-sjc3132-SJC',
+234 silly get     'x-cache': 'HIT',
+234 silly get     'x-cache-hits': '1',
+234 silly get     'x-timer': 'S1461268900.313162,VS0,VE0',
+234 silly get     vary: 'Accept-Encoding' } ]
+235 verbose etag https://registry.npmjs.org/watchify from cache
+236 verbose get saving watchify to /Users/ryanr/.npm/registry.npmjs.org/watchify/.cache.json
+237 http 304 https://registry.npmjs.org/react
+238 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+238 verbose headers   via: '1.1 varnish',
+238 verbose headers   'cache-control': 'max-age=300',
+238 verbose headers   etag: '"B0MSQNAIPVG6H8MDVQ57OMAFH"',
+238 verbose headers   age: '241',
+238 verbose headers   connection: 'keep-alive',
+238 verbose headers   'x-served-by': 'cache-sjc3121-SJC',
+238 verbose headers   'x-cache': 'HIT',
+238 verbose headers   'x-cache-hits': '1',
+238 verbose headers   'x-timer': 'S1461268900.312913,VS0,VE0',
+238 verbose headers   vary: 'Accept-Encoding' }
+239 silly get cb [ 304,
+239 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+239 silly get     via: '1.1 varnish',
+239 silly get     'cache-control': 'max-age=300',
+239 silly get     etag: '"B0MSQNAIPVG6H8MDVQ57OMAFH"',
+239 silly get     age: '241',
+239 silly get     connection: 'keep-alive',
+239 silly get     'x-served-by': 'cache-sjc3121-SJC',
+239 silly get     'x-cache': 'HIT',
+239 silly get     'x-cache-hits': '1',
+239 silly get     'x-timer': 'S1461268900.312913,VS0,VE0',
+239 silly get     vary: 'Accept-Encoding' } ]
+240 verbose etag https://registry.npmjs.org/react from cache
+241 verbose get saving react to /Users/ryanr/.npm/registry.npmjs.org/react/.cache.json
+242 http 304 https://registry.npmjs.org/coffee-script
+243 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+243 verbose headers   via: '1.1 varnish',
+243 verbose headers   'cache-control': 'max-age=300',
+243 verbose headers   etag: '"8TCAF9MCAIKNBJ4QK3J2KMSXT"',
+243 verbose headers   age: '274',
+243 verbose headers   connection: 'keep-alive',
+243 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+243 verbose headers   'x-cache': 'HIT',
+243 verbose headers   'x-cache-hits': '7',
+243 verbose headers   'x-timer': 'S1461268900.313840,VS0,VE0',
+243 verbose headers   vary: 'Accept-Encoding' }
+244 silly get cb [ 304,
+244 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+244 silly get     via: '1.1 varnish',
+244 silly get     'cache-control': 'max-age=300',
+244 silly get     etag: '"8TCAF9MCAIKNBJ4QK3J2KMSXT"',
+244 silly get     age: '274',
+244 silly get     connection: 'keep-alive',
+244 silly get     'x-served-by': 'cache-sjc3122-SJC',
+244 silly get     'x-cache': 'HIT',
+244 silly get     'x-cache-hits': '7',
+244 silly get     'x-timer': 'S1461268900.313840,VS0,VE0',
+244 silly get     vary: 'Accept-Encoding' } ]
+245 verbose etag https://registry.npmjs.org/coffee-script from cache
+246 verbose get saving coffee-script to /Users/ryanr/.npm/registry.npmjs.org/coffee-script/.cache.json
+247 http 304 https://registry.npmjs.org/browserify
+248 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+248 verbose headers   via: '1.1 varnish',
+248 verbose headers   'cache-control': 'max-age=300',
+248 verbose headers   etag: '"4T9B3HORF5V7459ENI4BJPP0G"',
+248 verbose headers   age: '149',
+248 verbose headers   connection: 'keep-alive',
+248 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+248 verbose headers   'x-cache': 'HIT',
+248 verbose headers   'x-cache-hits': '4',
+248 verbose headers   'x-timer': 'S1461268900.318909,VS0,VE0',
+248 verbose headers   vary: 'Accept-Encoding' }
+249 silly get cb [ 304,
+249 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+249 silly get     via: '1.1 varnish',
+249 silly get     'cache-control': 'max-age=300',
+249 silly get     etag: '"4T9B3HORF5V7459ENI4BJPP0G"',
+249 silly get     age: '149',
+249 silly get     connection: 'keep-alive',
+249 silly get     'x-served-by': 'cache-sjc3132-SJC',
+249 silly get     'x-cache': 'HIT',
+249 silly get     'x-cache-hits': '4',
+249 silly get     'x-timer': 'S1461268900.318909,VS0,VE0',
+249 silly get     vary: 'Accept-Encoding' } ]
+250 verbose etag https://registry.npmjs.org/browserify from cache
+251 verbose get saving browserify to /Users/ryanr/.npm/registry.npmjs.org/browserify/.cache.json
+252 http 304 https://registry.npmjs.org/gulp-sass
+253 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+253 verbose headers   via: '1.1 varnish',
+253 verbose headers   'cache-control': 'max-age=300',
+253 verbose headers   etag: '"8SX8TR5N338P0EMO9J21VRJI4"',
+253 verbose headers   age: '280',
+253 verbose headers   connection: 'keep-alive',
+253 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
+253 verbose headers   'x-cache': 'HIT',
+253 verbose headers   'x-cache-hits': '2',
+253 verbose headers   'x-timer': 'S1461268900.344129,VS0,VE0',
+253 verbose headers   vary: 'Accept-Encoding' }
+254 silly get cb [ 304,
+254 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+254 silly get     via: '1.1 varnish',
+254 silly get     'cache-control': 'max-age=300',
+254 silly get     etag: '"8SX8TR5N338P0EMO9J21VRJI4"',
+254 silly get     age: '280',
+254 silly get     connection: 'keep-alive',
+254 silly get     'x-served-by': 'cache-sjc3134-SJC',
+254 silly get     'x-cache': 'HIT',
+254 silly get     'x-cache-hits': '2',
+254 silly get     'x-timer': 'S1461268900.344129,VS0,VE0',
+254 silly get     vary: 'Accept-Encoding' } ]
+255 verbose etag https://registry.npmjs.org/gulp-sass from cache
+256 verbose get saving gulp-sass to /Users/ryanr/.npm/registry.npmjs.org/gulp-sass/.cache.json
+257 verbose outdated not updating react-dom because it's currently at the maximum version that matches its specified semver range
+258 verbose outdated not updating gulp-sourcemaps because it's currently at the maximum version that matches its specified semver range
+259 verbose outdated not updating ejs because it's currently at the maximum version that matches its specified semver range
+260 verbose outdated not updating gulp because it's currently at the maximum version that matches its specified semver range
+261 verbose outdated not updating gulp-connect because it's currently at the maximum version that matches its specified semver range
+262 verbose outdated not updating react because it's currently at the maximum version that matches its specified semver range
+263 verbose outdated not updating browserify because it's currently at the maximum version that matches its specified semver range
+264 verbose outdated not updating gulp-sass because it's currently at the maximum version that matches its specified semver range
+265 info outdated updating [ [ '/Users/ryanr/sites/coffee-react',
+265 info outdated     'rebass',
+265 info outdated     undefined,
+265 info outdated     '0.2.6',
+265 info outdated     '0.2.6',
+265 info outdated     '^0.2.6' ],
+265 info outdated   [ '/Users/ryanr/sites/coffee-react',
+265 info outdated     'react-motion',
+265 info outdated     undefined,
+265 info outdated     '0.4.3',
+265 info outdated     '0.4.3',
+265 info outdated     '^0.4.2' ] ]
+266 verbose install where, what [ '/Users/ryanr/sites/coffee-react', [ 'rebass@0.2.6' ] ]
+267 verbose install where, what [ '/Users/ryanr/sites/coffee-react', [ 'react-motion@0.4.3' ] ]
+268 verbose install initial load of /Users/ryanr/sites/coffee-react/package.json
+269 verbose install initial load of /Users/ryanr/sites/coffee-react/package.json
+270 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/body-parser/package.json
+271 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/browserify/package.json
+272 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/cjsxify/package.json
+273 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/coffee-script/package.json
+274 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/ejs/package.json
+275 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/express/package.json
+276 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp/package.json
+277 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-cjsx/package.json
+278 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-connect/package.json
+279 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-sass/package.json
+280 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-sourcemaps/package.json
+281 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-util/package.json
+282 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react/package.json
+283 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react-addons/package.json
+284 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react-addons-css-transition-group/package.json
+285 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react-dom/package.json
+286 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react-router/package.json
+287 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/vinyl-source-stream/package.json
+288 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/watchify/package.json
+289 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/body-parser/package.json
+290 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/browserify/package.json
+291 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/cjsxify/package.json
+292 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/coffee-script/package.json
+293 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/ejs/package.json
+294 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/express/package.json
+295 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp/package.json
+296 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-cjsx/package.json
+297 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-connect/package.json
+298 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-sass/package.json
+299 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-sourcemaps/package.json
+300 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/gulp-util/package.json
+301 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react/package.json
+302 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react-addons/package.json
+303 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react-addons-css-transition-group/package.json
+304 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react-dom/package.json
+305 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/react-router/package.json
+306 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/vinyl-source-stream/package.json
+307 verbose installManyTop reading scoped package data from /Users/ryanr/sites/coffee-react/node_modules/watchify/package.json
+308 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/package.json
+309 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/package.json
+310 silly cache add args [ 'rebass@0.2.6', null ]
+311 verbose cache add spec rebass@0.2.6
+312 silly cache add parsed spec Result {
+312 silly cache add   raw: 'rebass@0.2.6',
+312 silly cache add   scope: null,
+312 silly cache add   name: 'rebass',
+312 silly cache add   rawSpec: '0.2.6',
+312 silly cache add   spec: '0.2.6',
+312 silly cache add   type: 'version' }
+313 silly addNamed rebass@0.2.6
+314 verbose addNamed "0.2.6" is a plain semver version for rebass
+315 silly mapToRegistry name rebass
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry uri https://registry.npmjs.org/rebass
+319 verbose addNameVersion registry:https://registry.npmjs.org/rebass not in flight; fetching
+320 silly cache add args [ 'react-motion@0.4.3', null ]
+321 verbose cache add spec react-motion@0.4.3
+322 silly cache add parsed spec Result {
+322 silly cache add   raw: 'react-motion@0.4.3',
+322 silly cache add   scope: null,
+322 silly cache add   name: 'react-motion',
+322 silly cache add   rawSpec: '0.4.3',
+322 silly cache add   spec: '0.4.3',
+322 silly cache add   type: 'version' }
+323 silly addNamed react-motion@0.4.3
+324 verbose addNamed "0.4.3" is a plain semver version for react-motion
+325 silly mapToRegistry name react-motion
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry https://registry.npmjs.org/
+328 silly mapToRegistry uri https://registry.npmjs.org/react-motion
+329 verbose addNameVersion registry:https://registry.npmjs.org/react-motion not in flight; fetching
+330 verbose get https://registry.npmjs.org/rebass not expired, no request
+331 verbose get https://registry.npmjs.org/react-motion not expired, no request
+332 silly cache afterAdd react-motion@0.4.3
+333 verbose afterAdd /Users/ryanr/.npm/react-motion/0.4.3/package/package.json not in flight; writing
+334 silly cache afterAdd rebass@0.2.6
+335 verbose afterAdd /Users/ryanr/.npm/rebass/0.2.6/package/package.json not in flight; writing
+336 verbose afterAdd /Users/ryanr/.npm/react-motion/0.4.3/package/package.json written
+337 silly install resolved [ { name: 'react-motion',
+337 silly install resolved     version: '0.4.3',
+337 silly install resolved     description: 'A spring that solves your animation problems.',
+337 silly install resolved     main: 'lib/react-motion.js',
+337 silly install resolved     peerDependencies: { react: '>=0.13.2 || ^0.14 || ^15.0.0' },
+337 silly install resolved     devDependencies:
+337 silly install resolved      { babel: '^5.8.23',
+337 silly install resolved        'babel-browser-transform': '^0.1.0',
+337 silly install resolved        'babel-core': '^5.6.18',
+337 silly install resolved        'babel-eslint': '^4.1.3',
+337 silly install resolved        'babel-loader': '^5.3.1',
+337 silly install resolved        codemirror: '^5.5.0',
+337 silly install resolved        'css-loader': '^0.19.0',
+337 silly install resolved        eslint: '^1.6.0',
+337 silly install resolved        'eslint-config-airbnb': '0.1.0',
+337 silly install resolved        'eslint-loader': '^1.1.0',
+337 silly install resolved        'eslint-plugin-react': '^3.5.1',
+337 silly install resolved        'inject-loader': '^2.0.1',
+337 silly install resolved        'isparta-loader': '^0.2.0',
+337 silly install resolved        'jasmine-core': '^2.3.4',
+337 silly install resolved        karma: '^0.13.10',
+337 silly install resolved        'karma-coverage': '^0.5.2',
+337 silly install resolved        'karma-jasmine': '^0.3.6',
+337 silly install resolved        'karma-jasmine-diff-reporter': '^0.3.2',
+337 silly install resolved        'karma-phantomjs-launcher': '^0.2.0',
+337 silly install resolved        'karma-webpack': '^1.7.0',
+337 silly install resolved        'lodash.range': '^3.0.1',
+337 silly install resolved        phantomjs: '^1.9.17',
+337 silly install resolved        react: '>=15.0.1',
+337 silly install resolved        'react-addons-test-utils': '^15.0.1',
+337 silly install resolved        'react-codemirror': '>=0.1.2',
+337 silly install resolved        'react-dom': '>=15.0.1',
+337 silly install resolved        'react-hot-loader': '^1.2.8',
+337 silly install resolved        'style-loader': '^0.12.4',
+337 silly install resolved        webpack: '^1.10.1',
+337 silly install resolved        'webpack-dev-server': '^1.10.1' },
+337 silly install resolved     scripts:
+337 silly install resolved      { start: 'node server.js',
+337 silly install resolved        'build-demos': 'webpack',
+337 silly install resolved        lint: 'eslint --ext .js,.jsx .',
+337 silly install resolved        prerelease: 'rm -rf lib && babel src --out-dir lib && webpack --config webpack.prod.config.js',
+337 silly install resolved        test: 'karma start ./karma.conf.js --single-run',
+337 silly install resolved        'test:travis': 'karma start ./karma.conf.js --single-run',
+337 silly install resolved        'test:dev': 'karma start ./karma.conf.js --no-single-run --auto-watch',
+337 silly install resolved        'test:cov': 'karma start ./karma.conf.js --single-run --reporters coverage',
+337 silly install resolved        'gh-pages': 'git fetch origin && git checkout gh-pages && git reset --hard origin/gh-pages && git rebase origin/master --force-rebase && npm run build-demos && git add . && git commit --amend --no-edit && git push origin gh-pages --force && git checkout master' },
+337 silly install resolved     repository:
+337 silly install resolved      { type: 'git',
+337 silly install resolved        url: 'git+https://github.com/chenglou/react-motion.git' },
+337 silly install resolved     keywords:
+337 silly install resolved      [ 'react',
+337 silly install resolved        'component',
+337 silly install resolved        'react-component',
+337 silly install resolved        'transitiongroup',
+337 silly install resolved        'spring',
+337 silly install resolved        'tween',
+337 silly install resolved        'motion',
+337 silly install resolved        'animation',
+337 silly install resolved        'transition',
+337 silly install resolved        'ui' ],
+337 silly install resolved     author: { name: 'chenglou' },
+337 silly install resolved     license: 'MIT',
+337 silly install resolved     dependencies: { 'performance-now': '^0.2.0', raf: '^3.1.0' },
+337 silly install resolved     contributors:
+337 silly install resolved      [ [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object],
+337 silly install resolved        [Object] ],
+337 silly install resolved     gitHead: '0d708c1cda4b7340eb0ef6c39508cf97ebf848bf',
+337 silly install resolved     bugs: { url: 'https://github.com/chenglou/react-motion/issues' },
+337 silly install resolved     homepage: 'https://github.com/chenglou/react-motion#readme',
+337 silly install resolved     _id: 'react-motion@0.4.3',
+337 silly install resolved     _shasum: '077127a2735e2a8f68a6fe1445070814a51a94a4',
+337 silly install resolved     _from: 'react-motion@0.4.3',
+337 silly install resolved     _npmVersion: '3.8.3',
+337 silly install resolved     _nodeVersion: '5.10.1',
+337 silly install resolved     _npmUser: { name: 'chenglou', email: 'chenglou92@gmail.com' },
+337 silly install resolved     dist:
+337 silly install resolved      { shasum: '077127a2735e2a8f68a6fe1445070814a51a94a4',
+337 silly install resolved        tarball: 'https://registry.npmjs.org/react-motion/-/react-motion-0.4.3.tgz' },
+337 silly install resolved     maintainers: [ [Object], [Object] ],
+337 silly install resolved     _npmOperationalInternal:
+337 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+337 silly install resolved        tmp: 'tmp/react-motion-0.4.3.tgz_1461134744079_0.5820272949058563' },
+337 silly install resolved     directories: {},
+337 silly install resolved     _resolved: 'https://registry.npmjs.org/react-motion/-/react-motion-0.4.3.tgz',
+337 silly install resolved     readme: 'ERROR: No README data found!' } ]
+338 info install react-motion@0.4.3 into /Users/ryanr/sites/coffee-react
+339 info installOne react-motion@0.4.3
+340 verbose installOne of react-motion to /Users/ryanr/sites/coffee-react not in flight; installing
+341 verbose afterAdd /Users/ryanr/.npm/rebass/0.2.6/package/package.json written
+342 silly install resolved [ { name: 'rebass',
+342 silly install resolved     version: '0.2.6',
+342 silly install resolved     description: 'Configurable React Stateless Functional UI Components',
+342 silly install resolved     author: { name: 'Brent Jackson' },
+342 silly install resolved     license: 'MIT',
+342 silly install resolved     scripts:
+342 silly install resolved      { prepublish: 'mkdir -p dist && babel src --out-dir dist',
+342 silly install resolved        start: 'static-react docs/components/Root.js --props docs/data.js > index.html',
+342 silly install resolved        watch: 'npm run start && onchange \'src/**/*\' \'docs/**/*\' -- npm run start',
+342 silly install resolved        'test:watch': 'mocha test --watch --compilers js:babel-register',
+342 silly install resolved        test: 'standard && mocha test --compilers js:babel-register' },
+342 silly install resolved     peerDependencies: { react: '^0.14.0 || ^15.0.0' },
+342 silly install resolved     devDependencies:
+342 silly install resolved      { 'babel-cli': '^6.5.1',
+342 silly install resolved        'babel-core': '^6.5.2',
+342 silly install resolved        'babel-preset-es2015': '^6.5.0',
+342 silly install resolved        'babel-preset-react': '^6.5.0',
+342 silly install resolved        'babel-preset-stage-0': '^6.5.0',
+342 silly install resolved        'babel-register': '^6.5.2',
+342 silly install resolved        expect: '^1.14.0',
+342 silly install resolved        mocha: '^2.4.5',
+342 silly install resolved        onchange: '^2.0.0',
+342 silly install resolved        react: '^15.0.1',
+342 silly install resolved        'react-addons-test-utils': '^15.0.1',
+342 silly install resolved        'react-component-permutations': '^1.0.0-beta2',
+342 silly install resolved        'react-docgen': '^2.7.0',
+342 silly install resolved        'react-element-to-jsx-string': '^2.4.0',
+342 silly install resolved        'react-geomicons': '^2.0.4',
+342 silly install resolved        reflexbox: '^1.1.0',
+342 silly install resolved        standard: '^6.0.7',
+342 silly install resolved        'static-react': '^3.1.0' },
+342 silly install resolved     keywords:
+342 silly install resolved      [ 'components',
+342 silly install resolved        'react',
+342 silly install resolved        'react-component',
+342 silly install resolved        'ui',
+342 silly install resolved        'presentational',
+342 silly install resolved        'stateless',
+342 silly install resolved        'functional' ],
+342 silly install resolved     main: 'dist/index.js',
+342 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/jxnblk/rebass.git' },
+342 silly install resolved     bugs: { url: 'https://github.com/jxnblk/rebass/issues' },
+342 silly install resolved     homepage: 'https://github.com/jxnblk/rebass',
+342 silly install resolved     dependencies: { classnames: '^2.2.3', 'object-assign': '^4.0.1' },
+342 silly install resolved     standard: { ignore: [Object], globals: [Object] },
+342 silly install resolved     eslintConfig: { parser: 'babel-eslint' },
+342 silly install resolved     gitHead: '5250d77e337b5459256362268fb88a8dcacc5803',
+342 silly install resolved     _id: 'rebass@0.2.6',
+342 silly install resolved     _shasum: 'bfbd77a7bdcc804d2e65a20bde8af2e123c9cee9',
+342 silly install resolved     _from: 'rebass@0.2.6',
+342 silly install resolved     _npmVersion: '3.8.6',
+342 silly install resolved     _nodeVersion: '5.7.1',
+342 silly install resolved     _npmUser: { name: 'jxnblk', email: 'jxnblk@gmail.com' },
+342 silly install resolved     dist:
+342 silly install resolved      { shasum: 'bfbd77a7bdcc804d2e65a20bde8af2e123c9cee9',
+342 silly install resolved        tarball: 'https://registry.npmjs.org/rebass/-/rebass-0.2.6.tgz' },
+342 silly install resolved     maintainers: [ [Object] ],
+342 silly install resolved     _npmOperationalInternal:
+342 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+342 silly install resolved        tmp: 'tmp/rebass-0.2.6.tgz_1460559151438_0.8405475681647658' },
+342 silly install resolved     directories: {},
+342 silly install resolved     _resolved: 'https://registry.npmjs.org/rebass/-/rebass-0.2.6.tgz',
+342 silly install resolved     readme: 'ERROR: No README data found!' } ]
+343 info install rebass@0.2.6 into /Users/ryanr/sites/coffee-react
+344 info installOne rebass@0.2.6
+345 verbose installOne of rebass to /Users/ryanr/sites/coffee-react not in flight; installing
+346 verbose lock using /Users/ryanr/.npm/_locks/react-motion-ae6a3ea8f459f67d.lock for /Users/ryanr/sites/coffee-react/node_modules/react-motion
+347 verbose lock using /Users/ryanr/.npm/_locks/rebass-8a2edbc279275581.lock for /Users/ryanr/sites/coffee-react/node_modules/rebass
+348 silly install write writing react-motion 0.4.3 to /Users/ryanr/sites/coffee-react/node_modules/react-motion
+349 silly install write writing rebass 0.2.6 to /Users/ryanr/sites/coffee-react/node_modules/rebass
+350 verbose unbuild node_modules/react-motion
+351 verbose unbuild node_modules/rebass
+352 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/react-motion is being purged from base /Users/ryanr/sites/coffee-react
+353 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/react-motion
+354 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/rebass is being purged from base /Users/ryanr/sites/coffee-react
+355 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/rebass
+356 verbose tar unpack /Users/ryanr/.npm/react-motion/0.4.3/package.tgz
+357 verbose tar unpacking to /Users/ryanr/sites/coffee-react/node_modules/react-motion
+358 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/react-motion is being purged
+359 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/react-motion
+360 verbose tar unpack /Users/ryanr/.npm/rebass/0.2.6/package.tgz
+361 verbose tar unpacking to /Users/ryanr/sites/coffee-react/node_modules/rebass
+362 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/rebass is being purged
+363 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/rebass
+364 silly gunzTarPerm modes [ '755', '644' ]
+365 silly gunzTarPerm modes [ '755', '644' ]
+366 silly gunzTarPerm extractEntry package.json
+367 silly gunzTarPerm extractEntry package.json
+368 silly gunzTarPerm extractEntry README.md
+369 silly gunzTarPerm extractEntry .npmignore
+370 silly gunzTarPerm extractEntry README.md
+371 silly gunzTarPerm extractEntry LICENSE
+372 silly gunzTarPerm extractEntry HISTORY.md
+373 silly gunzTarPerm extractEntry build/react-motion.js
+374 silly gunzTarPerm extractEntry .babelrc
+375 silly gunzTarPerm extractEntry .travis.yml
+376 silly gunzTarPerm extractEntry .codeclimate.yml
+377 silly gunzTarPerm extractEntry dist/Arrow.js
+378 silly gunzTarPerm extractEntry build/react-motion.map
+379 silly gunzTarPerm extractEntry lib/Motion.js
+380 silly gunzTarPerm extractEntry dist/InlineForm.js
+381 silly gunzTarPerm extractEntry lib/Types.js
+382 silly gunzTarPerm extractEntry lib/mapToZero.js
+383 silly gunzTarPerm extractEntry dist/Input.js
+384 silly gunzTarPerm extractEntry dist/Label.js
+385 silly gunzTarPerm extractEntry dist/HeadingLink.js
+386 silly gunzTarPerm extractEntry lib/mergeDiff.js
+387 silly gunzTarPerm extractEntry lib/TransitionMotion.js
+388 silly gunzTarPerm extractEntry lib/react-motion.js
+389 silly gunzTarPerm extractEntry lib/reorderKeys.js
+390 silly gunzTarPerm extractEntry lib/shouldStopAnimation.js
+391 silly gunzTarPerm extractEntry lib/spring.js
+392 silly gunzTarPerm extractEntry dist/Media.js
+393 silly gunzTarPerm extractEntry dist/Menu.js
+394 silly gunzTarPerm extractEntry dist/Message.js
+395 silly gunzTarPerm extractEntry dist/NavItem.js
+396 silly gunzTarPerm extractEntry lib/stepper.js
+397 silly gunzTarPerm extractEntry lib/StaggeredMotion.js
+398 silly gunzTarPerm extractEntry lib/stripStyle.js
+399 silly gunzTarPerm extractEntry lib/presets.js
+400 silly gunzTarPerm extractEntry AUTHORS
+401 silly gunzTarPerm extractEntry src/Motion.js
+402 silly gunzTarPerm extractEntry dist/Overlay.js
+403 silly gunzTarPerm extractEntry dist/Heading.js
+404 silly gunzTarPerm extractEntry src/Types.js
+405 silly gunzTarPerm extractEntry src/mapToZero.js
+406 silly gunzTarPerm extractEntry dist/PageHeader.js
+407 silly gunzTarPerm extractEntry dist/Footer.js
+408 silly gunzTarPerm extractEntry src/mergeDiff.js
+409 silly gunzTarPerm extractEntry src/TransitionMotion.js
+410 silly gunzTarPerm extractEntry dist/Panel.js
+411 silly gunzTarPerm extractEntry dist/Fixed.js
+412 silly gunzTarPerm extractEntry src/react-motion.js
+413 silly gunzTarPerm extractEntry src/reorderKeys.js
+414 silly gunzTarPerm extractEntry dist/PanelFooter.js
+415 silly gunzTarPerm extractEntry dist/Embed.js
+416 silly gunzTarPerm extractEntry src/shouldStopAnimation.js
+417 silly gunzTarPerm extractEntry dist/PanelHeader.js
+418 silly gunzTarPerm extractEntry dist/DropdownMenu.js
+419 silly gunzTarPerm extractEntry src/spring.js
+420 silly gunzTarPerm extractEntry src/stepper.js
+421 silly gunzTarPerm extractEntry dist/Pre.js
+422 silly gunzTarPerm extractEntry dist/Dropdown.js
+423 silly gunzTarPerm extractEntry src/StaggeredMotion.js
+424 silly gunzTarPerm extractEntry src/stripStyle.js
+425 silly gunzTarPerm extractEntry src/presets.js
+426 silly gunzTarPerm extractEntry dist/Progress.js
+427 silly gunzTarPerm extractEntry dist/Drawer.js
+428 silly gunzTarPerm extractEntry bower.json
+429 silly gunzTarPerm extractEntry dist/Radio.js
+430 silly gunzTarPerm extractEntry dist/DotIndicator.js
+431 silly gunzTarPerm extractEntry dist/Rating.js
+432 silly gunzTarPerm extractEntry dist/Donut.js
+433 silly gunzTarPerm extractEntry dist/Section.js
+434 silly gunzTarPerm extractEntry dist/Divider.js
+435 silly gunzTarPerm extractEntry dist/SectionHeader.js
+436 silly gunzTarPerm extractEntry dist/Container.js
+437 silly gunzTarPerm extractEntry dist/Select.js
+438 silly gunzTarPerm extractEntry dist/Close.js
+439 silly gunzTarPerm extractEntry dist/SequenceMap.js
+440 silly gunzTarPerm extractEntry dist/Checkbox.js
+441 silly gunzTarPerm extractEntry dist/SequenceMapStep.js
+442 silly gunzTarPerm extractEntry dist/CardImage.js
+443 silly gunzTarPerm extractEntry dist/Slider.js
+444 silly gunzTarPerm extractEntry dist/Card.js
+445 silly gunzTarPerm extractEntry dist/Space.js
+446 silly gunzTarPerm extractEntry dist/ButtonOutline.js
+447 silly gunzTarPerm extractEntry dist/Stat.js
+448 silly gunzTarPerm extractEntry dist/ButtonCircle.js
+449 silly gunzTarPerm extractEntry dist/Switch.js
+450 silly gunzTarPerm extractEntry dist/Button.js
+451 silly gunzTarPerm extractEntry dist/Table.js
+452 silly gunzTarPerm extractEntry dist/Breadcrumbs.js
+453 silly gunzTarPerm extractEntry dist/Text.js
+454 silly gunzTarPerm extractEntry dist/Blockquote.js
+455 silly gunzTarPerm extractEntry dist/Textarea.js
+456 silly gunzTarPerm extractEntry dist/Block.js
+457 silly gunzTarPerm extractEntry dist/Toolbar.js
+458 silly gunzTarPerm extractEntry dist/Base.js
+459 silly gunzTarPerm extractEntry dist/Tooltip.js
+460 silly gunzTarPerm extractEntry dist/Banner.js
+461 silly gunzTarPerm extractEntry dist/config.js
+462 silly gunzTarPerm extractEntry dist/Badge.js
+463 silly gunzTarPerm extractEntry dist/index.js
+464 silly gunzTarPerm extractEntry dist/Avatar.js
+465 silly gunzTarPerm extractEntry dist/LinkBlock.js
+466 silly gunzTarPerm extractEntry dist/util/color-style.js
+467 silly gunzTarPerm extractEntry dist/util/margins.js
+468 silly gunzTarPerm extractEntry dist/util/padding.js
+469 silly gunzTarPerm extractEntry dist/util/radii.js
+470 silly gunzTarPerm extractEntry index.html
+471 silly gunzTarPerm extractEntry src/Arrow.js
+472 silly gunzTarPerm extractEntry src/InlineForm.js
+473 silly gunzTarPerm extractEntry src/Input.js
+474 silly gunzTarPerm extractEntry src/Label.js
+475 silly gunzTarPerm extractEntry src/HeadingLink.js
+476 verbose write writing to /Users/ryanr/sites/coffee-react/node_modules/react-motion/package.json
+477 info preinstall react-motion@0.4.3
+478 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/react-motion/package.json
+479 silly gunzTarPerm extractEntry src/Media.js
+480 silly gunzTarPerm extractEntry src/Menu.js
+481 silly prepareForInstallMany adding performance-now@^0.2.0 from react-motion dependencies
+482 silly prepareForInstallMany adding raf@^3.1.0 from react-motion dependencies
+483 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/react-motion/package.json
+484 silly gunzTarPerm extractEntry src/Message.js
+485 silly gunzTarPerm extractEntry src/NavItem.js
+486 silly cache add args [ 'performance-now@^0.2.0', null ]
+487 verbose cache add spec performance-now@^0.2.0
+488 silly cache add args [ 'raf@^3.1.0', null ]
+489 verbose cache add spec raf@^3.1.0
+490 silly cache add parsed spec Result {
+490 silly cache add   raw: 'performance-now@^0.2.0',
+490 silly cache add   scope: null,
+490 silly cache add   name: 'performance-now',
+490 silly cache add   rawSpec: '^0.2.0',
+490 silly cache add   spec: '>=0.2.0 <0.3.0',
+490 silly cache add   type: 'range' }
+491 silly addNamed performance-now@>=0.2.0 <0.3.0
+492 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for performance-now
+493 silly addNameRange { name: 'performance-now',
+493 silly addNameRange   range: '>=0.2.0 <0.3.0',
+493 silly addNameRange   hasData: false }
+494 silly mapToRegistry name performance-now
+495 silly mapToRegistry using default registry
+496 silly mapToRegistry registry https://registry.npmjs.org/
+497 silly mapToRegistry uri https://registry.npmjs.org/performance-now
+498 verbose addNameRange registry:https://registry.npmjs.org/performance-now not in flight; fetching
+499 silly cache add parsed spec Result {
+499 silly cache add   raw: 'raf@^3.1.0',
+499 silly cache add   scope: null,
+499 silly cache add   name: 'raf',
+499 silly cache add   rawSpec: '^3.1.0',
+499 silly cache add   spec: '>=3.1.0 <4.0.0',
+499 silly cache add   type: 'range' }
+500 silly addNamed raf@>=3.1.0 <4.0.0
+501 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for raf
+502 silly addNameRange { name: 'raf', range: '>=3.1.0 <4.0.0', hasData: false }
+503 silly mapToRegistry name raf
+504 silly mapToRegistry using default registry
+505 silly mapToRegistry registry https://registry.npmjs.org/
+506 silly mapToRegistry uri https://registry.npmjs.org/raf
+507 verbose addNameRange registry:https://registry.npmjs.org/raf not in flight; fetching
+508 verbose request uri https://registry.npmjs.org/performance-now
+509 verbose request no auth needed
+510 info attempt registry request try #1 at 1:01:40 PM
+511 verbose etag "19WYT6TP0Q5NECN0HERZTF24L"
+512 http request GET https://registry.npmjs.org/performance-now
+513 verbose request uri https://registry.npmjs.org/raf
+514 verbose request no auth needed
+515 info attempt registry request try #1 at 1:01:40 PM
+516 verbose etag "1LKCYPEOUQ0CDSI2NIJP2NBF8"
+517 http request GET https://registry.npmjs.org/raf
+518 silly gunzTarPerm extractEntry src/Overlay.js
+519 silly gunzTarPerm extractEntry src/Heading.js
+520 silly gunzTarPerm extractEntry src/PageHeader.js
+521 silly gunzTarPerm extractEntry src/Footer.js
+522 silly gunzTarPerm extractEntry src/Panel.js
+523 silly gunzTarPerm extractEntry src/Fixed.js
+524 silly gunzTarPerm extractEntry src/PanelFooter.js
+525 silly gunzTarPerm extractEntry src/Embed.js
+526 silly gunzTarPerm extractEntry src/PanelHeader.js
+527 silly gunzTarPerm extractEntry src/DropdownMenu.js
+528 silly gunzTarPerm extractEntry src/Pre.js
+529 silly gunzTarPerm extractEntry src/Dropdown.js
+530 silly gunzTarPerm extractEntry src/Progress.js
+531 silly gunzTarPerm extractEntry src/Drawer.js
+532 silly gunzTarPerm extractEntry src/Radio.js
+533 silly gunzTarPerm extractEntry src/DotIndicator.js
+534 silly gunzTarPerm extractEntry src/Rating.js
+535 silly gunzTarPerm extractEntry src/Donut.js
+536 silly gunzTarPerm extractEntry src/Section.js
+537 silly gunzTarPerm extractEntry src/Divider.js
+538 silly gunzTarPerm extractEntry src/SectionHeader.js
+539 silly gunzTarPerm extractEntry src/Container.js
+540 silly gunzTarPerm extractEntry src/Select.js
+541 silly gunzTarPerm extractEntry src/Close.js
+542 silly gunzTarPerm extractEntry src/SequenceMap.js
+543 silly gunzTarPerm extractEntry src/Checkbox.js
+544 silly gunzTarPerm extractEntry src/SequenceMapStep.js
+545 silly gunzTarPerm extractEntry src/CardImage.js
+546 silly gunzTarPerm extractEntry src/Slider.js
+547 silly gunzTarPerm extractEntry src/Card.js
+548 silly gunzTarPerm extractEntry src/Space.js
+549 silly gunzTarPerm extractEntry src/ButtonOutline.js
+550 silly gunzTarPerm extractEntry src/Stat.js
+551 silly gunzTarPerm extractEntry src/ButtonCircle.js
+552 silly gunzTarPerm extractEntry src/Switch.js
+553 silly gunzTarPerm extractEntry src/Button.js
+554 silly gunzTarPerm extractEntry src/Table.js
+555 silly gunzTarPerm extractEntry src/Breadcrumbs.js
+556 silly gunzTarPerm extractEntry src/Text.js
+557 silly gunzTarPerm extractEntry src/Blockquote.js
+558 silly gunzTarPerm extractEntry src/Textarea.js
+559 silly gunzTarPerm extractEntry src/Block.js
+560 silly gunzTarPerm extractEntry src/Toolbar.js
+561 silly gunzTarPerm extractEntry src/Base.js
+562 silly gunzTarPerm extractEntry src/Tooltip.js
+563 silly gunzTarPerm extractEntry src/Banner.js
+564 silly gunzTarPerm extractEntry src/config.js
+565 silly gunzTarPerm extractEntry src/Badge.js
+566 silly gunzTarPerm extractEntry src/index.js
+567 silly gunzTarPerm extractEntry src/Avatar.js
+568 silly gunzTarPerm extractEntry src/LinkBlock.js
+569 silly gunzTarPerm extractEntry src/util/color-style.js
+570 silly gunzTarPerm extractEntry src/util/margins.js
+571 silly gunzTarPerm extractEntry src/util/padding.js
+572 silly gunzTarPerm extractEntry src/util/radii.js
+573 silly gunzTarPerm extractEntry .github/CONTRIBUTING.md
+574 silly gunzTarPerm extractEntry .github/LICENSE.md
+575 silly gunzTarPerm extractEntry test/Arrow.spec.js
+576 silly gunzTarPerm extractEntry test/InlineForm.spec.js
+577 silly gunzTarPerm extractEntry test/Input.spec.js
+578 silly gunzTarPerm extractEntry test/Label.spec.js
+579 silly gunzTarPerm extractEntry test/LinkBlock.spec.js
+580 silly gunzTarPerm extractEntry test/HeadingLink.js
+581 silly gunzTarPerm extractEntry test/Menu.spec.js
+582 silly gunzTarPerm extractEntry test/Message.spec.js
+583 silly gunzTarPerm extractEntry test/NavItem.spec.js
+584 silly gunzTarPerm extractEntry test/Overlay.spec.js
+585 silly gunzTarPerm extractEntry test/PageHeader.spec.js
+586 silly gunzTarPerm extractEntry test/Heading.spec.js
+587 silly gunzTarPerm extractEntry test/Panel.spec.js
+588 silly gunzTarPerm extractEntry test/Footer.spec.js
+589 silly gunzTarPerm extractEntry test/PanelFooter.spec.js
+590 silly gunzTarPerm extractEntry test/Fixed.spec.js
+591 silly gunzTarPerm extractEntry test/PanelHeader.spec.js
+592 silly gunzTarPerm extractEntry test/Embed.spec.js
+593 silly gunzTarPerm extractEntry test/Pre.spec.js
+594 silly gunzTarPerm extractEntry test/DropdownMenu.js
+595 silly gunzTarPerm extractEntry test/Progress.spec.js
+596 silly gunzTarPerm extractEntry test/Dropdown.spec.js
+597 silly gunzTarPerm extractEntry test/Radio.spec.js
+598 silly gunzTarPerm extractEntry test/Drawer.spec.js
+599 silly gunzTarPerm extractEntry test/Rating.spec.js
+600 silly gunzTarPerm extractEntry test/DotIndicator.spec.js
+601 silly gunzTarPerm extractEntry test/Section.spec.js
+602 silly gunzTarPerm extractEntry test/Donut.spec.js
+603 silly gunzTarPerm extractEntry test/SectionHeader.spec.js
+604 silly gunzTarPerm extractEntry test/Divider.spec.js
+605 silly gunzTarPerm extractEntry test/Select.spec.js
+606 silly gunzTarPerm extractEntry test/Container.spec.js
+607 silly gunzTarPerm extractEntry test/SequenceMap.spec.js
+608 silly gunzTarPerm extractEntry test/Close.spec.js
+609 silly gunzTarPerm extractEntry test/Slider.spec.js
+610 silly gunzTarPerm extractEntry test/Checkbox.spec.js
+611 silly gunzTarPerm extractEntry test/Space.spec.js
+612 silly gunzTarPerm extractEntry test/CardImage.spec.js
+613 silly gunzTarPerm extractEntry test/Stat.spec.js
+614 silly gunzTarPerm extractEntry test/Card.spec.js
+615 silly gunzTarPerm extractEntry test/Switch.spec.js
+616 silly gunzTarPerm extractEntry test/ButtonOutline.spec.js
+617 silly gunzTarPerm extractEntry test/Table.spec.js
+618 silly gunzTarPerm extractEntry test/ButtonCircle.spec.js
+619 silly gunzTarPerm extractEntry test/Text.spec.js
+620 silly gunzTarPerm extractEntry test/Button.spec.js
+621 silly gunzTarPerm extractEntry test/Textarea.spec.js
+622 silly gunzTarPerm extractEntry test/Breadcrumbs.spec.js
+623 silly gunzTarPerm extractEntry test/Toolbar.spec.js
+624 silly gunzTarPerm extractEntry test/Blockquote.spec.js
+625 silly gunzTarPerm extractEntry test/Tooltip.spec.js
+626 silly gunzTarPerm extractEntry test/Block.spec.js
+627 silly gunzTarPerm extractEntry test/color-style.spec.js
+628 silly gunzTarPerm extractEntry test/Base.spec.js
+629 silly gunzTarPerm extractEntry test/config.spec.js
+630 silly gunzTarPerm extractEntry test/Banner.spec.js
+631 silly gunzTarPerm extractEntry test/margins.spec.js
+632 silly gunzTarPerm extractEntry test/Badge.spec.js
+633 silly gunzTarPerm extractEntry test/padding.spec.js
+634 silly gunzTarPerm extractEntry test/Avatar.spec.js
+635 silly gunzTarPerm extractEntry test/radii.spec.js
+636 silly gunzTarPerm extractEntry test/Media.spec.js
+637 http 304 https://registry.npmjs.org/performance-now
+638 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+638 verbose headers   via: '1.1 varnish',
+638 verbose headers   'cache-control': 'max-age=300',
+638 verbose headers   etag: '"19WYT6TP0Q5NECN0HERZTF24L"',
+638 verbose headers   age: '50',
+638 verbose headers   connection: 'keep-alive',
+638 verbose headers   'x-served-by': 'cache-sjc3121-SJC',
+638 verbose headers   'x-cache': 'HIT',
+638 verbose headers   'x-cache-hits': '1',
+638 verbose headers   'x-timer': 'S1461268900.852999,VS0,VE0',
+638 verbose headers   vary: 'Accept-Encoding' }
+639 silly get cb [ 304,
+639 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+639 silly get     via: '1.1 varnish',
+639 silly get     'cache-control': 'max-age=300',
+639 silly get     etag: '"19WYT6TP0Q5NECN0HERZTF24L"',
+639 silly get     age: '50',
+639 silly get     connection: 'keep-alive',
+639 silly get     'x-served-by': 'cache-sjc3121-SJC',
+639 silly get     'x-cache': 'HIT',
+639 silly get     'x-cache-hits': '1',
+639 silly get     'x-timer': 'S1461268900.852999,VS0,VE0',
+639 silly get     vary: 'Accept-Encoding' } ]
+640 verbose etag https://registry.npmjs.org/performance-now from cache
+641 verbose get saving performance-now to /Users/ryanr/.npm/registry.npmjs.org/performance-now/.cache.json
+642 silly addNameRange number 2 { name: 'performance-now',
+642 silly addNameRange   range: '>=0.2.0 <0.3.0',
+642 silly addNameRange   hasData: true }
+643 silly addNameRange versions [ 'performance-now',
+643 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.2.0' ] ]
+644 silly addNamed performance-now@0.2.0
+645 verbose addNamed "0.2.0" is a plain semver version for performance-now
+646 http 304 https://registry.npmjs.org/raf
+647 verbose headers { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+647 verbose headers   via: '1.1 varnish',
+647 verbose headers   'cache-control': 'max-age=300',
+647 verbose headers   etag: '"1LKCYPEOUQ0CDSI2NIJP2NBF8"',
+647 verbose headers   age: '51',
+647 verbose headers   connection: 'keep-alive',
+647 verbose headers   'x-served-by': 'cache-sjc3121-SJC',
+647 verbose headers   'x-cache': 'HIT',
+647 verbose headers   'x-cache-hits': '1',
+647 verbose headers   'x-timer': 'S1461268900.859703,VS0,VE0',
+647 verbose headers   vary: 'Accept-Encoding' }
+648 silly get cb [ 304,
+648 silly get   { date: 'Thu, 21 Apr 2016 20:01:40 GMT',
+648 silly get     via: '1.1 varnish',
+648 silly get     'cache-control': 'max-age=300',
+648 silly get     etag: '"1LKCYPEOUQ0CDSI2NIJP2NBF8"',
+648 silly get     age: '51',
+648 silly get     connection: 'keep-alive',
+648 silly get     'x-served-by': 'cache-sjc3121-SJC',
+648 silly get     'x-cache': 'HIT',
+648 silly get     'x-cache-hits': '1',
+648 silly get     'x-timer': 'S1461268900.859703,VS0,VE0',
+648 silly get     vary: 'Accept-Encoding' } ]
+649 verbose etag https://registry.npmjs.org/raf from cache
+650 verbose get saving raf to /Users/ryanr/.npm/registry.npmjs.org/raf/.cache.json
+651 silly cache afterAdd performance-now@0.2.0
+652 verbose afterAdd /Users/ryanr/.npm/performance-now/0.2.0/package/package.json not in flight; writing
+653 verbose afterAdd /Users/ryanr/.npm/performance-now/0.2.0/package/package.json written
+654 silly addNameRange number 2 { name: 'raf', range: '>=3.1.0 <4.0.0', hasData: true }
+655 silly addNameRange versions [ 'raf',
+655 silly addNameRange   [ '0.0.0',
+655 silly addNameRange     '0.0.1',
+655 silly addNameRange     '0.0.2',
+655 silly addNameRange     '0.0.3',
+655 silly addNameRange     '0.1.0',
+655 silly addNameRange     '0.1.1',
+655 silly addNameRange     '0.1.2',
+655 silly addNameRange     '0.1.3',
+655 silly addNameRange     '0.2.0',
+655 silly addNameRange     '1.0.0',
+655 silly addNameRange     '1.0.1',
+655 silly addNameRange     '2.0.0',
+655 silly addNameRange     '2.0.1',
+655 silly addNameRange     '2.0.2',
+655 silly addNameRange     '2.0.3',
+655 silly addNameRange     '2.0.4',
+655 silly addNameRange     '3.0.0',
+655 silly addNameRange     '3.1.0',
+655 silly addNameRange     '3.2.0' ] ]
+656 silly addNamed raf@3.2.0
+657 verbose addNamed "3.2.0" is a plain semver version for raf
+658 silly cache afterAdd raf@3.2.0
+659 verbose afterAdd /Users/ryanr/.npm/raf/3.2.0/package/package.json not in flight; writing
+660 verbose afterAdd /Users/ryanr/.npm/raf/3.2.0/package/package.json written
+661 silly install resolved [ { name: 'performance-now',
+661 silly install resolved     description: 'Implements performance.now (based on process.hrtime).',
+661 silly install resolved     keywords: [],
+661 silly install resolved     version: '0.2.0',
+661 silly install resolved     author: { name: 'Meryn Stol', email: 'merynstol@gmail.com' },
+661 silly install resolved     license: 'MIT',
+661 silly install resolved     homepage: 'https://github.com/meryn/performance-now',
+661 silly install resolved     bugs: { url: 'https://github.com/meryn/performance-now/issues' },
+661 silly install resolved     repository:
+661 silly install resolved      { type: 'git',
+661 silly install resolved        url: 'git://github.com/meryn/performance-now.git' },
+661 silly install resolved     private: false,
+661 silly install resolved     dependencies: {},
+661 silly install resolved     devDependencies: { 'coffee-script': '~1.7.1', mocha: '~1.21.0' },
+661 silly install resolved     optionalDependencies: {},
+661 silly install resolved     main: 'lib/performance-now.js',
+661 silly install resolved     scripts:
+661 silly install resolved      { prepublish: 'npm test',
+661 silly install resolved        pretest: 'make build',
+661 silly install resolved        test: 'make test' },
+661 silly install resolved     _id: 'performance-now@0.2.0',
+661 silly install resolved     dist:
+661 silly install resolved      { shasum: '33ef30c5c77d4ea21c5a53869d91b56d8f2555e5',
+661 silly install resolved        tarball: 'https://registry.npmjs.org/performance-now/-/performance-now-0.2.0.tgz' },
+661 silly install resolved     _from: 'performance-now@>=0.2.0 <0.3.0',
+661 silly install resolved     _npmVersion: '1.3.24',
+661 silly install resolved     _npmUser: { name: 'meryn', email: 'merynstol@gmail.com' },
+661 silly install resolved     maintainers: [ [Object] ],
+661 silly install resolved     directories: {},
+661 silly install resolved     _shasum: '33ef30c5c77d4ea21c5a53869d91b56d8f2555e5',
+661 silly install resolved     _resolved: 'https://registry.npmjs.org/performance-now/-/performance-now-0.2.0.tgz',
+661 silly install resolved     readme: 'ERROR: No README data found!' },
+661 silly install resolved   { name: 'raf',
+661 silly install resolved     version: '3.2.0',
+661 silly install resolved     description: 'requestAnimationFrame polyfill for node and the browser',
+661 silly install resolved     main: 'index.js',
+661 silly install resolved     scripts:
+661 silly install resolved      { testling: 'browserify test.js | testling',
+661 silly install resolved        test: 'node test.js' },
+661 silly install resolved     repository: { type: 'git', url: 'git://github.com/chrisdickinson/raf.git' },
+661 silly install resolved     keywords: [ 'requestAnimationFrame', 'polyfill' ],
+661 silly install resolved     author: { name: 'Chris Dickinson', email: 'chris@neversaw.us' },
+661 silly install resolved     contributors: [ [Object] ],
+661 silly install resolved     license: 'MIT',
+661 silly install resolved     devDependencies: { testling: '~1.6.1', browserify: '~4.1.2', tape: '^4.0.0' },
+661 silly install resolved     dependencies: { 'performance-now': '~0.2.0' },
+661 silly install resolved     testling: { files: 'test.js', browsers: [Object] },
+661 silly install resolved     gitHead: '36f73baee1b9bede56e5b21c422091fb4186858a',
+661 silly install resolved     bugs: { url: 'https://github.com/chrisdickinson/raf/issues' },
+661 silly install resolved     homepage: 'https://github.com/chrisdickinson/raf#readme',
+661 silly install resolved     _id: 'raf@3.2.0',
+661 silly install resolved     _shasum: '2aba9a09bb70f8c2e9094dc60ace7c374fadec7e',
+661 silly install resolved     _from: 'raf@>=3.1.0 <4.0.0',
+661 silly install resolved     _npmVersion: '3.3.4',
+661 silly install resolved     _nodeVersion: '4.1.1',
+661 silly install resolved     _npmUser: { name: 'cmtegner', email: 'christian.tegner@gmail.com' },
+661 silly install resolved     maintainers: [ [Object], [Object] ],
+661 silly install resolved     dist:
+661 silly install resolved      { shasum: '2aba9a09bb70f8c2e9094dc60ace7c374fadec7e',
+661 silly install resolved        tarball: 'https://registry.npmjs.org/raf/-/raf-3.2.0.tgz' },
+661 silly install resolved     _npmOperationalInternal:
+661 silly install resolved      { host: 'packages-5-east.internal.npmjs.com',
+661 silly install resolved        tmp: 'tmp/raf-3.2.0.tgz_1455705777394_0.3654659006278962' },
+661 silly install resolved     directories: {},
+661 silly install resolved     _resolved: 'https://registry.npmjs.org/raf/-/raf-3.2.0.tgz',
+661 silly install resolved     readme: 'ERROR: No README data found!' } ]
+662 info install performance-now@0.2.0 into /Users/ryanr/sites/coffee-react/node_modules/react-motion
+663 info install raf@3.2.0 into /Users/ryanr/sites/coffee-react/node_modules/react-motion
+664 info installOne performance-now@0.2.0
+665 verbose installOne of performance-now to /Users/ryanr/sites/coffee-react/node_modules/react-motion not in flight; installing
+666 info installOne raf@3.2.0
+667 verbose installOne of raf to /Users/ryanr/sites/coffee-react/node_modules/react-motion not in flight; installing
+668 verbose lock using /Users/ryanr/.npm/_locks/raf-adec99cdd6d15722.lock for /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf
+669 verbose lock using /Users/ryanr/.npm/_locks/performance-now-87d8a5fcf45a4629.lock for /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now
+670 silly install write writing raf 3.2.0 to /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf
+671 silly install write writing performance-now 0.2.0 to /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now
+672 verbose unbuild node_modules/react-motion/node_modules/raf
+673 verbose unbuild node_modules/react-motion/node_modules/performance-now
+674 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf is being purged from base /Users/ryanr/sites/coffee-react
+675 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf
+676 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now is being purged from base /Users/ryanr/sites/coffee-react
+677 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now
+678 verbose tar unpack /Users/ryanr/.npm/raf/3.2.0/package.tgz
+679 verbose tar unpacking to /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf
+680 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf is being purged
+681 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf
+682 verbose tar unpack /Users/ryanr/.npm/performance-now/0.2.0/package.tgz
+683 verbose tar unpacking to /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now
+684 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now is being purged
+685 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now
+686 silly gunzTarPerm modes [ '755', '644' ]
+687 silly gunzTarPerm modes [ '755', '644' ]
+688 silly gunzTarPerm extractEntry package.json
+689 silly gunzTarPerm extractEntry package.json
+690 silly gunzTarPerm extractEntry .npmignore
+691 silly gunzTarPerm extractEntry README.md
+692 silly gunzTarPerm extractEntry .npmignore
+693 silly gunzTarPerm extractEntry README.md
+694 silly gunzTarPerm extractEntry index.js
+695 silly gunzTarPerm extractEntry test.js
+696 silly gunzTarPerm extractEntry .tm_properties
+697 silly gunzTarPerm extractEntry .travis.yml
+698 silly gunzTarPerm extractEntry window.js
+699 silly gunzTarPerm extractEntry Makefile
+700 silly gunzTarPerm extractEntry lib/performance-now.js
+701 silly gunzTarPerm extractEntry license.txt
+702 silly gunzTarPerm extractEntry src/performance-now.coffee
+703 silly gunzTarPerm extractEntry test/mocha.opts
+704 silly gunzTarPerm extractEntry test/performance-now.coffee
+705 verbose write writing to /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf/package.json
+706 info preinstall raf@3.2.0
+707 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf/package.json
+708 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf/package.json
+709 silly install resolved []
+710 verbose about to build /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf
+711 info build /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf
+712 info linkStuff raf@3.2.0
+713 silly linkStuff raf@3.2.0 has /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules as its parent node_modules
+714 verbose linkBins raf@3.2.0
+715 verbose linkMans raf@3.2.0
+716 verbose rebuildBundles raf@3.2.0
+717 info install raf@3.2.0
+718 info postinstall raf@3.2.0
+719 verbose unlock done using /Users/ryanr/.npm/_locks/raf-adec99cdd6d15722.lock for /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/raf
+720 verbose write writing to /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now/package.json
+721 info preinstall performance-now@0.2.0
+722 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now/package.json
+723 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now/package.json
+724 silly install resolved []
+725 verbose about to build /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now
+726 info build /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now
+727 info linkStuff performance-now@0.2.0
+728 silly linkStuff performance-now@0.2.0 has /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules as its parent node_modules
+729 verbose linkBins performance-now@0.2.0
+730 verbose linkMans performance-now@0.2.0
+731 verbose rebuildBundles performance-now@0.2.0
+732 info install performance-now@0.2.0
+733 info postinstall performance-now@0.2.0
+734 verbose unlock done using /Users/ryanr/.npm/_locks/performance-now-87d8a5fcf45a4629.lock for /Users/ryanr/sites/coffee-react/node_modules/react-motion/node_modules/performance-now
+735 verbose about to build /Users/ryanr/sites/coffee-react/node_modules/react-motion
+736 info build /Users/ryanr/sites/coffee-react/node_modules/react-motion
+737 info linkStuff react-motion@0.4.3
+738 silly linkStuff react-motion@0.4.3 has /Users/ryanr/sites/coffee-react/node_modules as its parent node_modules
+739 verbose linkBins react-motion@0.4.3
+740 verbose linkMans react-motion@0.4.3
+741 verbose rebuildBundles react-motion@0.4.3
+742 verbose rebuildBundles [ 'performance-now', 'raf' ]
+743 info install react-motion@0.4.3
+744 info postinstall react-motion@0.4.3
+745 verbose unlock done using /Users/ryanr/.npm/_locks/react-motion-ae6a3ea8f459f67d.lock for /Users/ryanr/sites/coffee-react/node_modules/react-motion
+746 verbose validateInstall loading /Users/ryanr/sites/coffee-react/package.json for validation
+747 verbose write writing to /Users/ryanr/sites/coffee-react/node_modules/rebass/package.json
+748 info preinstall rebass@0.2.6
+749 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/rebass/package.json
+750 silly prepareForInstallMany adding classnames@^2.2.3 from rebass dependencies
+751 silly prepareForInstallMany adding object-assign@^4.0.1 from rebass dependencies
+752 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/rebass/package.json
+753 silly cache add args [ 'classnames@^2.2.3', null ]
+754 verbose cache add spec classnames@^2.2.3
+755 silly cache add args [ 'object-assign@^4.0.1', null ]
+756 verbose cache add spec object-assign@^4.0.1
+757 silly cache add parsed spec Result {
+757 silly cache add   raw: 'classnames@^2.2.3',
+757 silly cache add   scope: null,
+757 silly cache add   name: 'classnames',
+757 silly cache add   rawSpec: '^2.2.3',
+757 silly cache add   spec: '>=2.2.3 <3.0.0',
+757 silly cache add   type: 'range' }
+758 silly addNamed classnames@>=2.2.3 <3.0.0
+759 verbose addNamed ">=2.2.3 <3.0.0" is a valid semver range for classnames
+760 silly addNameRange { name: 'classnames', range: '>=2.2.3 <3.0.0', hasData: false }
+761 silly mapToRegistry name classnames
+762 silly mapToRegistry using default registry
+763 silly mapToRegistry registry https://registry.npmjs.org/
+764 silly mapToRegistry uri https://registry.npmjs.org/classnames
+765 verbose addNameRange registry:https://registry.npmjs.org/classnames not in flight; fetching
+766 silly cache add parsed spec Result {
+766 silly cache add   raw: 'object-assign@^4.0.1',
+766 silly cache add   scope: null,
+766 silly cache add   name: 'object-assign',
+766 silly cache add   rawSpec: '^4.0.1',
+766 silly cache add   spec: '>=4.0.1 <5.0.0',
+766 silly cache add   type: 'range' }
+767 silly addNamed object-assign@>=4.0.1 <5.0.0
+768 verbose addNamed ">=4.0.1 <5.0.0" is a valid semver range for object-assign
+769 silly addNameRange { name: 'object-assign',
+769 silly addNameRange   range: '>=4.0.1 <5.0.0',
+769 silly addNameRange   hasData: false }
+770 silly mapToRegistry name object-assign
+771 silly mapToRegistry using default registry
+772 silly mapToRegistry registry https://registry.npmjs.org/
+773 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+774 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+775 verbose request uri https://registry.npmjs.org/object-assign
+776 verbose request no auth needed
+777 info attempt registry request try #1 at 1:01:43 PM
+778 verbose etag "8T6FMF0SV4V9D4WOSAI0HO8K8"
+779 http request GET https://registry.npmjs.org/object-assign
+780 verbose request uri https://registry.npmjs.org/classnames
+781 verbose request no auth needed
+782 info attempt registry request try #1 at 1:01:43 PM
+783 verbose etag "GWN8ERTGFU06RNR5H5J87ABD"
+784 http request GET https://registry.npmjs.org/classnames
+785 http 200 https://registry.npmjs.org/classnames
+786 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+786 verbose headers   etag: '"EAVH9OK2H3196OKRQWO7TUD56"',
+786 verbose headers   'content-type': 'application/json',
+786 verbose headers   'content-encoding': 'gzip',
+786 verbose headers   'cache-control': 'max-age=300',
+786 verbose headers   'content-length': '6309',
+786 verbose headers   'accept-ranges': 'bytes',
+786 verbose headers   date: 'Thu, 21 Apr 2016 20:01:43 GMT',
+786 verbose headers   via: '1.1 varnish',
+786 verbose headers   age: '155',
+786 verbose headers   connection: 'keep-alive',
+786 verbose headers   'x-served-by': 'cache-sjc3129-SJC',
+786 verbose headers   'x-cache': 'HIT',
+786 verbose headers   'x-cache-hits': '1',
+786 verbose headers   'x-timer': 'S1461268903.195148,VS0,VE0',
+786 verbose headers   vary: 'Accept-Encoding' }
+787 silly get cb [ 200,
+787 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+787 silly get     etag: '"EAVH9OK2H3196OKRQWO7TUD56"',
+787 silly get     'content-type': 'application/json',
+787 silly get     'content-encoding': 'gzip',
+787 silly get     'cache-control': 'max-age=300',
+787 silly get     'content-length': '6309',
+787 silly get     'accept-ranges': 'bytes',
+787 silly get     date: 'Thu, 21 Apr 2016 20:01:43 GMT',
+787 silly get     via: '1.1 varnish',
+787 silly get     age: '155',
+787 silly get     connection: 'keep-alive',
+787 silly get     'x-served-by': 'cache-sjc3129-SJC',
+787 silly get     'x-cache': 'HIT',
+787 silly get     'x-cache-hits': '1',
+787 silly get     'x-timer': 'S1461268903.195148,VS0,VE0',
+787 silly get     vary: 'Accept-Encoding' } ]
+788 verbose get saving classnames to /Users/ryanr/.npm/registry.npmjs.org/classnames/.cache.json
+789 silly addNameRange number 2 { name: 'classnames', range: '>=2.2.3 <3.0.0', hasData: true }
+790 silly addNameRange versions [ 'classnames',
+790 silly addNameRange   [ '1.0.0',
+790 silly addNameRange     '1.1.0',
+790 silly addNameRange     '1.1.1',
+790 silly addNameRange     '1.1.2',
+790 silly addNameRange     '1.1.3',
+790 silly addNameRange     '1.1.4',
+790 silly addNameRange     '1.2.0',
+790 silly addNameRange     '1.2.1',
+790 silly addNameRange     '1.2.2',
+790 silly addNameRange     '2.0.0',
+790 silly addNameRange     '2.1.0',
+790 silly addNameRange     '2.1.1',
+790 silly addNameRange     '2.1.2',
+790 silly addNameRange     '2.1.3',
+790 silly addNameRange     '2.1.4',
+790 silly addNameRange     '2.1.5',
+790 silly addNameRange     '2.2.0',
+790 silly addNameRange     '2.2.1',
+790 silly addNameRange     '2.2.2',
+790 silly addNameRange     '2.2.3' ] ]
+791 silly addNamed classnames@2.2.3
+792 verbose addNamed "2.2.3" is a plain semver version for classnames
+793 silly cache afterAdd classnames@2.2.3
+794 verbose afterAdd /Users/ryanr/.npm/classnames/2.2.3/package/package.json not in flight; writing
+795 verbose afterAdd /Users/ryanr/.npm/classnames/2.2.3/package/package.json written
+796 http 304 https://registry.npmjs.org/object-assign
+797 verbose headers { date: 'Thu, 21 Apr 2016 20:01:43 GMT',
+797 verbose headers   via: '1.1 varnish',
+797 verbose headers   'cache-control': 'max-age=300',
+797 verbose headers   etag: '"8T6FMF0SV4V9D4WOSAI0HO8K8"',
+797 verbose headers   age: '269',
+797 verbose headers   connection: 'keep-alive',
+797 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+797 verbose headers   'x-cache': 'HIT',
+797 verbose headers   'x-cache-hits': '23',
+797 verbose headers   'x-timer': 'S1461268903.209717,VS0,VE0',
+797 verbose headers   vary: 'Accept-Encoding' }
+798 silly get cb [ 304,
+798 silly get   { date: 'Thu, 21 Apr 2016 20:01:43 GMT',
+798 silly get     via: '1.1 varnish',
+798 silly get     'cache-control': 'max-age=300',
+798 silly get     etag: '"8T6FMF0SV4V9D4WOSAI0HO8K8"',
+798 silly get     age: '269',
+798 silly get     connection: 'keep-alive',
+798 silly get     'x-served-by': 'cache-sjc3133-SJC',
+798 silly get     'x-cache': 'HIT',
+798 silly get     'x-cache-hits': '23',
+798 silly get     'x-timer': 'S1461268903.209717,VS0,VE0',
+798 silly get     vary: 'Accept-Encoding' } ]
+799 verbose etag https://registry.npmjs.org/object-assign from cache
+800 verbose get saving object-assign to /Users/ryanr/.npm/registry.npmjs.org/object-assign/.cache.json
+801 silly addNameRange number 2 { name: 'object-assign', range: '>=4.0.1 <5.0.0', hasData: true }
+802 silly addNameRange versions [ 'object-assign',
+802 silly addNameRange   [ '0.1.0',
+802 silly addNameRange     '0.1.1',
+802 silly addNameRange     '0.1.2',
+802 silly addNameRange     '0.2.0',
+802 silly addNameRange     '0.2.1',
+802 silly addNameRange     '0.2.2',
+802 silly addNameRange     '0.3.0',
+802 silly addNameRange     '0.3.1',
+802 silly addNameRange     '0.4.0',
+802 silly addNameRange     '1.0.0',
+802 silly addNameRange     '2.0.0',
+802 silly addNameRange     '3.0.0',
+802 silly addNameRange     '2.1.1',
+802 silly addNameRange     '4.0.0',
+802 silly addNameRange     '4.0.1' ] ]
+803 silly addNamed object-assign@4.0.1
+804 verbose addNamed "4.0.1" is a plain semver version for object-assign
+805 silly cache afterAdd object-assign@4.0.1
+806 verbose afterAdd /Users/ryanr/.npm/object-assign/4.0.1/package/package.json not in flight; writing
+807 verbose afterAdd /Users/ryanr/.npm/object-assign/4.0.1/package/package.json written
+808 silly install resolved [ { name: 'classnames',
+808 silly install resolved     version: '2.2.3',
+808 silly install resolved     description: 'A simple utility for conditionally joining classNames together',
+808 silly install resolved     main: 'index.js',
+808 silly install resolved     author: { name: 'Jed Watson' },
+808 silly install resolved     license: 'MIT',
+808 silly install resolved     repository:
+808 silly install resolved      { type: 'git',
+808 silly install resolved        url: 'git+https://github.com/JedWatson/classnames.git' },
+808 silly install resolved     scripts:
+808 silly install resolved      { benchmarks: 'node ./benchmarks/run',
+808 silly install resolved        unit: 'mocha tests/*.js',
+808 silly install resolved        test: 'npm run unit' },
+808 silly install resolved     keywords:
+808 silly install resolved      [ 'react',
+808 silly install resolved        'css',
+808 silly install resolved        'classes',
+808 silly install resolved        'classname',
+808 silly install resolved        'classnames',
+808 silly install resolved        'util',
+808 silly install resolved        'utility' ],
+808 silly install resolved     devDependencies: { benchmark: '^1.0.0', mocha: '^2.1.0' },
+808 silly install resolved     gitHead: 'a6934cd623c1ea2a895575af9c83b08c8bdd3b05',
+808 silly install resolved     bugs: { url: 'https://github.com/JedWatson/classnames/issues' },
+808 silly install resolved     homepage: 'https://github.com/JedWatson/classnames#readme',
+808 silly install resolved     _id: 'classnames@2.2.3',
+808 silly install resolved     _shasum: '551b774b6762a0c0a997187f7ba4f1d603961ac5',
+808 silly install resolved     _from: 'classnames@>=2.2.3 <3.0.0',
+808 silly install resolved     _npmVersion: '2.14.3',
+808 silly install resolved     _nodeVersion: '4.1.0',
+808 silly install resolved     _npmUser: { name: 'jedwatson', email: 'jed.watson@me.com' },
+808 silly install resolved     dist:
+808 silly install resolved      { shasum: '551b774b6762a0c0a997187f7ba4f1d603961ac5',
+808 silly install resolved        tarball: 'http://registry.npmjs.org/classnames/-/classnames-2.2.3.tgz' },
+808 silly install resolved     maintainers: [ [Object] ],
+808 silly install resolved     directories: {},
+808 silly install resolved     _resolved: 'https://registry.npmjs.org/classnames/-/classnames-2.2.3.tgz',
+808 silly install resolved     readme: 'ERROR: No README data found!' },
+808 silly install resolved   { name: 'object-assign',
+808 silly install resolved     version: '4.0.1',
+808 silly install resolved     description: 'ES6 Object.assign() ponyfill',
+808 silly install resolved     license: 'MIT',
+808 silly install resolved     repository:
+808 silly install resolved      { type: 'git',
+808 silly install resolved        url: 'git+https://github.com/sindresorhus/object-assign.git' },
+808 silly install resolved     author:
+808 silly install resolved      { name: 'Sindre Sorhus',
+808 silly install resolved        email: 'sindresorhus@gmail.com',
+808 silly install resolved        url: 'http://sindresorhus.com' },
+808 silly install resolved     engines: { node: '>=0.10.0' },
+808 silly install resolved     scripts: { test: 'xo && mocha', bench: 'matcha bench.js' },
+808 silly install resolved     files: [ 'index.js' ],
+808 silly install resolved     keywords:
+808 silly install resolved      [ 'object',
+808 silly install resolved        'assign',
+808 silly install resolved        'extend',
+808 silly install resolved        'properties',
+808 silly install resolved        'es6',
+808 silly install resolved        'ecmascript',
+808 silly install resolved        'harmony',
+808 silly install resolved        'ponyfill',
+808 silly install resolved        'prollyfill',
+808 silly install resolved        'polyfill',
+808 silly install resolved        'shim',
+808 silly install resolved        'browser' ],
+808 silly install resolved     devDependencies: { lodash: '^3.10.1', matcha: '^0.6.0', mocha: '*', xo: '*' },
+808 silly install resolved     xo: { envs: [Object] },
+808 silly install resolved     gitHead: 'b0c40d37cbc43e89ad3326a9bad4c6b3133ba6d3',
+808 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
+808 silly install resolved     homepage: 'https://github.com/sindresorhus/object-assign#readme',
+808 silly install resolved     _id: 'object-assign@4.0.1',
+808 silly install resolved     _shasum: '99504456c3598b5cad4fc59c26e8a9bb107fe0bd',
+808 silly install resolved     _from: 'object-assign@>=4.0.1 <5.0.0',
+808 silly install resolved     _npmVersion: '2.13.3',
+808 silly install resolved     _nodeVersion: '3.0.0',
+808 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+808 silly install resolved     dist:
+808 silly install resolved      { shasum: '99504456c3598b5cad4fc59c26e8a9bb107fe0bd',
+808 silly install resolved        tarball: 'http://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz' },
+808 silly install resolved     maintainers: [ [Object] ],
+808 silly install resolved     directories: {},
+808 silly install resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz',
+808 silly install resolved     readme: 'ERROR: No README data found!' } ]
+809 info install classnames@2.2.3 into /Users/ryanr/sites/coffee-react/node_modules/rebass
+810 info install object-assign@4.0.1 into /Users/ryanr/sites/coffee-react/node_modules/rebass
+811 info installOne classnames@2.2.3
+812 verbose installOne of classnames to /Users/ryanr/sites/coffee-react/node_modules/rebass not in flight; installing
+813 info installOne object-assign@4.0.1
+814 verbose installOne of object-assign to /Users/ryanr/sites/coffee-react/node_modules/rebass not in flight; installing
+815 verbose lock using /Users/ryanr/.npm/_locks/classnames-f62e2657e0595ce1.lock for /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames
+816 verbose lock using /Users/ryanr/.npm/_locks/object-assign-afb81e2dc009945c.lock for /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign
+817 silly install write writing classnames 2.2.3 to /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames
+818 silly install write writing object-assign 4.0.1 to /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign
+819 verbose unbuild node_modules/rebass/node_modules/classnames
+820 verbose unbuild node_modules/rebass/node_modules/object-assign
+821 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames is being purged from base /Users/ryanr/sites/coffee-react
+822 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames
+823 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign is being purged from base /Users/ryanr/sites/coffee-react
+824 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign
+825 verbose tar unpack /Users/ryanr/.npm/classnames/2.2.3/package.tgz
+826 verbose tar unpacking to /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames
+827 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames is being purged
+828 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames
+829 verbose tar unpack /Users/ryanr/.npm/object-assign/4.0.1/package.tgz
+830 verbose tar unpacking to /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign
+831 silly gentlyRm /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign is being purged
+832 verbose gentlyRm don't care about contents; nuking /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign
+833 silly gunzTarPerm modes [ '755', '644' ]
+834 silly gunzTarPerm modes [ '755', '644' ]
+835 silly gunzTarPerm extractEntry package.json
+836 silly gunzTarPerm extractEntry package.json
+837 silly gunzTarPerm extractEntry index.js
+838 silly gunzTarPerm extractEntry license
+839 silly gunzTarPerm extractEntry README.md
+840 silly gunzTarPerm extractEntry LICENSE
+841 silly gunzTarPerm extractEntry readme.md
+842 silly gunzTarPerm extractEntry bind.js
+843 silly gunzTarPerm extractEntry dedupe.js
+844 silly gunzTarPerm extractEntry index.js
+845 silly gunzTarPerm extractEntry CONTRIBUTING.md
+846 silly gunzTarPerm extractEntry bower.json
+847 silly gunzTarPerm extractEntry HISTORY.md
+848 verbose write writing to /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign/package.json
+849 info preinstall object-assign@4.0.1
+850 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign/package.json
+851 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign/package.json
+852 silly install resolved []
+853 verbose about to build /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign
+854 info build /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign
+855 info linkStuff object-assign@4.0.1
+856 silly linkStuff object-assign@4.0.1 has /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules as its parent node_modules
+857 verbose linkBins object-assign@4.0.1
+858 verbose linkMans object-assign@4.0.1
+859 verbose rebuildBundles object-assign@4.0.1
+860 info install object-assign@4.0.1
+861 info postinstall object-assign@4.0.1
+862 verbose unlock done using /Users/ryanr/.npm/_locks/object-assign-afb81e2dc009945c.lock for /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/object-assign
+863 verbose write writing to /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames/package.json
+864 info preinstall classnames@2.2.3
+865 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames/package.json
+866 verbose readDependencies loading dependencies from /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames/package.json
+867 silly install resolved []
+868 verbose about to build /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames
+869 info build /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames
+870 info linkStuff classnames@2.2.3
+871 silly linkStuff classnames@2.2.3 has /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules as its parent node_modules
+872 verbose linkBins classnames@2.2.3
+873 verbose linkMans classnames@2.2.3
+874 verbose rebuildBundles classnames@2.2.3
+875 info install classnames@2.2.3
+876 info postinstall classnames@2.2.3
+877 verbose unlock done using /Users/ryanr/.npm/_locks/classnames-f62e2657e0595ce1.lock for /Users/ryanr/sites/coffee-react/node_modules/rebass/node_modules/classnames
+878 verbose about to build /Users/ryanr/sites/coffee-react/node_modules/rebass
+879 info build /Users/ryanr/sites/coffee-react/node_modules/rebass
+880 info linkStuff rebass@0.2.6
+881 silly linkStuff rebass@0.2.6 has /Users/ryanr/sites/coffee-react/node_modules as its parent node_modules
+882 verbose linkBins rebass@0.2.6
+883 verbose linkMans rebass@0.2.6
+884 verbose rebuildBundles rebass@0.2.6
+885 verbose rebuildBundles [ 'classnames', 'object-assign' ]
+886 info install rebass@0.2.6
+887 info postinstall rebass@0.2.6
+888 verbose unlock done using /Users/ryanr/.npm/_locks/rebass-8a2edbc279275581.lock for /Users/ryanr/sites/coffee-react/node_modules/rebass
+889 verbose validateInstall loading /Users/ryanr/sites/coffee-react/package.json for validation
+890 verbose stack Error: The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+890 verbose stack     at /Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/lib/install.js:125:32
+890 verbose stack     at /Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/lib/install.js:268:7
+890 verbose stack     at /Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+890 verbose stack     at /Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+890 verbose stack     at cb (/Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+890 verbose stack     at /Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+890 verbose stack     at cb (/Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+890 verbose stack     at /Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+890 verbose stack     at cb (/Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+890 verbose stack     at /Users/ryanr/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+891 verbose cwd /Users/ryanr/sites/coffee-react
+892 error Darwin 14.5.0
+893 error argv "/Users/ryanr/.nvm/versions/node/v4.3.0/bin/node" "/Users/ryanr/.nvm/versions/node/v4.3.0/bin/npm" "update"
+894 error node v4.3.0
+895 error npm  v2.14.12
+896 error code EPEERINVALID
+897 error peerinvalid The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+897 error peerinvalid Peer react-dom@0.14.8 wants react@^0.14.8
+897 error peerinvalid Peer react-motion@0.4.3 wants react@>=0.13.2 || ^0.14 || ^15.0.0
+897 error peerinvalid Peer rebass@0.2.6 wants react@^0.14.0 || ^15.0.0
+897 error peerinvalid Peer react-addons@0.9.1-deprecated wants react@>= 0.9.0
+897 error peerinvalid Peer react-addons-css-transition-group@15.0.1 wants react@^15.0.1
+898 verbose exit [ 1, true ]

@@ -1,130 +1,104 @@
 React = require 'react'
 ReactDOM = require 'react-dom'
+ReactCSSTransitionGroup = require 'react-addons-css-transition-group'
 
-App = React.createClass
-  
+LOG = ''
+TAGNAME = 'testing'
+COUNT = 10
+INTERVAL = 1000
+
+console.clear()
+
+Item = React.createClass 
   render: ->
-
-# In this example we also have two components - a picture and
-# a picture list. The pictures are fetched from Instagram via AJAX.
-Picture = React.createClass
-  
-  clickHandler: ->
-    # When the component is clicked, trigger the onClick handler that 
-    # was passed as an attribute when it was constructed:
-    @props.onClick @props.id
-    
-  render: ->
-    pictureClass = "picture #{if @props.favorite then 'favorite' else ''}"
-
-    <div className={pictureClass} onClick={@clickHandler}>
-      <img src={@props.src} width="200" title={@props.title} />
+    <div className="item">
+      <div className="item__pic">
+        <img src={this.props.pic} />
+      </div>
+      <div className="item__content">
+        <div className="item__author">{this.props.author}</div>
+        <div className="item__text">{this.props.children}</div>
+      </div>
     </div>
 
-PictureList = React.createClass
-  getInitialState: ->
-    # The pictures array will be populated via AJAX, and 
-    # the favorites one when the user clicks on an image:
-    pictures: []
-    favorites: []
-    
-  componentDidMount: ->
-    # When the component loads, send a jQuery AJAX request
-    self = this
-    
-    # API endpoint for Instagram's popular images for the day
-    url = "https://api.instagram.com/v1/media/popular?client_id=#{@props.apiKey}&callback=?"
-    
-    $.getJSON url, (result) ->
+ItemBox = React.createClass
+  loadItemsFromServer: ->
+    self = @
+    client_id = "0c4a119af8d54538af6061cb3b5ff617"
+
+    $.ajax
+      url: "https://api.instagram.com/v1/tags/#{self.state.tagName}/media/recent?client_id=#{client_id}&start=0&count='#{self.props.count}&callback=?"
+      jsonp: 'callback'
+      dataType: 'jsonp'
+      cache: false
       
-      if !result or !result.data or !result.data.length
-      else
+      success: ((data) ->
+        if LOG
+          console.log data
 
-      pictures = result.data.map((p) ->
-        {
-          id: p.id
-          url: p.link
-          src: p.images.low_resolution.url
-          title: if p.caption then p.caption.text else ''
-          favorite: false
-        }
-      )
-      # Update the component's state. This will trigger a render.
-      # Note that this only updates the pictures property, and does
-      # not remove the favorites array.
-      self.setState 
-        pictures: pictures
+        @setState 
+          data: data.data
+      ).bind(this)
+      
+      error: ((xhr, status, err) ->
+        console.error xhr, status, err.toString()
+      ).bind(this)
 
-  pictureClick: (id) ->
-    # id holds the ID of the picture that was clicked.
-    # Find it in the pictures array, and add it to the favorites
-    favorites = @state.favorites
-    pictures = @state.pictures
+  handleTagNameSubmit: (tagName) ->
+    @setState 
+      tagName: tagName
 
-    for i in pictures 
-      # Find the id in the pictures array
-      if i.id == id
-        if i.favorite
-        else 
-          favorites.push i 
-          i.favorite = true 
+  getInitialState: ->
+    data: []
+    tagname: @props.tagNameDefault
 
+  componentDidMount: ->
+    @loadItemsFromServer
+    setInterval @loadItemsFromServer, @props.pollInterval
 
-    # Update the state and trigger a render
-    @setState
-      pictures: pictures
-      favorites: favorites
-  
-  
-  favoriteClick: (id) ->
-    # Find the picture in the favorites array and remove it. After this, 
-    # find the picture in the pictures array and mark it as a non-favorite.
-    favorites = @state.favorites
-    pictures = @state.pictures
-
-    for i in favorites
-      break if i.id == id
-
-    
-    # Remove the picture from favorites array
-    favorites.splice i, 1
-
-    for i in pictures
-      if i.id == id
-        i.favorite = false
-    
-    # Update the state and trigger a render
-    @setState
-      pictures: pictures
-      favorites: favorites
-  
   render: ->
-    
-    self = this
-    
-    pictures = @state.pictures.map((p, i)->
-      <Picture key={i} id={p.id} src={p.src} title={p.title} favorite={p.favorite} onClick={self.pictureClick} />
+    <div className="items">
+      <h1>Items</h1>
+      <ParamsForm onSubmit={@handleTagNameSubmit} />
+      <ItemList data={@state.data} />
+    </div>    
+
+ItemList = React.createClass
+  render: ->
+    itemNodes = @props.data.map((item, i) ->
+      name = 'No caption :('
+      text = 'No caption :('
+
+      if item.caption 
+        text = item.caption.text 
+
+      <Item key={i} author={item.user.full_name} pic={item.images.thumbnail.url}>{text}</Item>
     )
 
-    if !pictures.length
-      pictures = <p>Loading images..</p>
-        
-    favorites = @state.favorites.map((p, i) ->
-      <Picture key={i} id={p.id} src={p.src} title={p.title} favorite={true} onClick={self.favoriteClick} />
-    )
-
-    if !favorites.length
-      favorites = <p>Click an image to mark it as a favorite.</p>
-
-    <div>
-      <h1>Popular Instagram pics</h1>
-      <div className="pictures"> {pictures} </div>
-
-      <h1>Your favorites</h1>
-      <div className="favorites"> {favorites} </div>
+    <div className="items__list">
+      <ReactCSSTransitionGroup transitionName="animation" transitionEnterTimeout={500} transitionLeaveTimeout={500}>
+        {itemNodes}
+      </ReactCSSTransitionGroup>
     </div>
 
+ParamsForm = React.createClass 
+  handleSubmit: (e) ->
+    e.preventDefault()
+
+    tagName = ReactDOM.findDOMNode(@refs.tagName).value.trim()
+
+    return if !tagName 
+
+    @props.onSubmit tagName
+    ReactDOM.findDOMNode(@refs.tagName).value = ''
+
+  render: ->
+    <form className="form" onSubmit={this.handleSubmit}>
+      <input type="text" placeholder="Tag name" ref="tagName" />
+      <input type="submit" value="Get" />
+    </form>
+    
 ReactDOM.render(
-  <PictureList apiKey="642176ece1e7445e99244cec26f4de1f" />,  
+  <ItemBox tagNameDefault={TAGNAME} count={COUNT} pollInterval={INTERVAL} />,
   document.getElementById('app')
 );
