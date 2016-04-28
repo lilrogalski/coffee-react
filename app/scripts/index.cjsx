@@ -4,7 +4,10 @@ ReactCSSTransitionGroup = require 'react-addons-css-transition-group'
 
 App = React.createClass
   render: ->
-    <div className="test">test div</div>
+    <div className="vertical-center-wrap">
+      <div className="vertical-center-item">some text
+      </div>
+    </div>
     
 ReactDOM.render(
   <App />,

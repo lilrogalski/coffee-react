@@ -1,29 +1,14 @@
-$font-stack: Helvetica, sans-serif
-$primary-color: #333
- 
-body 
-  font: 100% $font-stack
-  color: $primary-color
+@import bootstrap/bootstrap
 
+$black: #000
+$white: #fff
 
-.css_nano, 
-.css_nano + p, 
-[class*="css_nano"],
-.css_nano  
-  /* cssnano will remove this comment */
-  display: flex
-  font-weight: normal
-  margin-top: 1rem
-  margin-bottom: 2rem
-  margin-left: 1.5rem
-  margin-right: 2.5rem
-  font-weight: normal
-  padding: 1.75rem
-  width: calc(50rem - (2 * 1.75rem))
+.vertical-center-wrap 
+  display: flex 
+  align-items: center
+  justify-content: center
+  height: 100vh
+  background: linear-gradient($black, $white)
 
-
-.testdiv
-  background: black
-
-.testdiv
-  background: blue
+.vertical-center-item
+  flex: none 

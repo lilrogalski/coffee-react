@@ -55,24 +55,14 @@ gulp.task 'css', ->
     cssnano
   ]
   gulp
-    .src './styles/*.sass'
+    .src './app/styles/*.sass'
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
     .pipe gulp.dest './public'
     .pipe connect.reload()
 
-
-# gulp.task 'sass', ->
-#   gulp
-#     .src './app/styles/style.sass'
-#     .pipe(sourcemaps.init())
-#     .pipe(sass().on('error', sass.logError))
-#     .pipe(sourcemaps.write())
-#     .pipe gulp.dest './public'
-#     .pipe connect.reload()
-
 gulp.task 'watch-sass', ->
-  gulp.watch './app/styles/style.sass', [ 'css' ]
+  gulp.watch './app/styles/*.sass', [ 'css' ]
 
 gulp.task 'default', ['server', 'watch-js', 'watch-sass']
 
