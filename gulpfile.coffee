@@ -6,9 +6,9 @@ browserify = require 'browserify'
 connect = require 'gulp-connect'
 cjsx = require 'gulp-cjsx'
 sass = require 'gulp-sass'
-sourcemaps = require 'gulp-sourcemaps'
-
-
+postcss = require 'gulp-postcss'
+autoprefixer = require 'autoprefixer'
+cssnano = require 'cssnano'
 
 gulp.task 'server', ->
 
@@ -49,17 +49,30 @@ gulp.task 'js', ->
 gulp.task 'watch-js', ['js'], ->
   gulp.watch ['./app/scripts/**'], ['js']
 
-gulp.task 'sass', ->
+gulp.task 'css', ->
+  processors = [
+    autoprefixer
+    cssnano
+  ]
   gulp
-    .src './app/styles/style.sass'
-    .pipe(sourcemaps.init())
+    .src './styles/*.sass'
     .pipe(sass().on('error', sass.logError))
-    .pipe(sourcemaps.write())
+    .pipe(postcss(processors))
     .pipe gulp.dest './public'
     .pipe connect.reload()
 
+
+# gulp.task 'sass', ->
+#   gulp
+#     .src './app/styles/style.sass'
+#     .pipe(sourcemaps.init())
+#     .pipe(sass().on('error', sass.logError))
+#     .pipe(sourcemaps.write())
+#     .pipe gulp.dest './public'
+#     .pipe connect.reload()
+
 gulp.task 'watch-sass', ->
-  gulp.watch './app/styles/style.sass', [ 'sass' ]
+  gulp.watch './app/styles/style.sass', [ 'css' ]
 
 gulp.task 'default', ['server', 'watch-js', 'watch-sass']
 

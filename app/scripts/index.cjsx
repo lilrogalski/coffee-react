@@ -4,7 +4,7 @@ ReactCSSTransitionGroup = require 'react-addons-css-transition-group'
 
 App = React.createClass
   render: ->
-    <div>hi</div>
+    <div className="test">test div</div>
     
 ReactDOM.render(
   <App />,
