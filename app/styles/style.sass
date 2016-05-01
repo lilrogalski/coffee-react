@@ -1,19 +1,35 @@
 // @import bootstrap/bootstrap
-@import partials/reset
-
+// @import partials/reset
 $black: #000
 $white: #fff
+
+*
+  margin: 0
+  padding: 0
+
+.text-input 
+  position: fixed 
+  top: 0
+  left: 0
+  width: 200px 
+  padding: 10px
+  background: transparent
+  border: 0
+  font-size: 15px
+  &:focus 
+    outline: 0
 
 .vertical-center-wrap 
   display: flex 
   align-items: center
   justify-content: center
   height: 100vh
-  background: $white
+  background: linear-gradient($white, #D0D0D0)
 
 .vertical-center-item
   flex: none 
-  font-size: 60px 
+  font-size: 54px 
   font-family: Avenir
   font-weight: 700
-  color: lighten($black, 20%)
+  color: $white
+  // transition: text-shadow 10ms ease-in-out
