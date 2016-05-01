@@ -21,8 +21,11 @@ App = React.createClass
 
 
   onChange: (e) ->
-    @setState text: e.target.value
-  
+    if e.target.value is ''
+      @setState text: 'DYNAMIC TEXT SHADOW'
+    else 
+      @setState text: e.target.value  
+
   onMouseMove: (e) ->
     posX = (window.innerWidth / 2) - e.clientX 
     posY = (window.innerHeight / 2) - e.clientY
@@ -50,7 +53,7 @@ App = React.createClass
     <div 
       className="vertical-center-wrap"
       onMouseMove={@onMouseMove}>
-      <input className="text-input" placeholder={@state.text} onChange={@onChange}/>        
+      <input className="text-input" placeholder="Add Custom Text" onChange={@onChange}/>        
       <div className="vertical-center-item" style={@state.style}>{@state.text}</div>        
     </div>
     
