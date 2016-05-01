@@ -1,2 +1,2 @@
-# react boilerplate w/coffee & bootstrap sass #
+# react boilerplate w/coffee & postcss / sass / bootstrap #
 
