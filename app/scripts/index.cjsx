@@ -3,44 +3,55 @@ ReactDOM = require 'react-dom'
 
 App = React.createClass
 
+  getInitialState: ->
+    multiples: 50
+    text: 'DYNAMIC TEXT SHADOW'
+    curposX: 100
+    curposY: 100
+
   buildShadow: (posX, posY) ->
-    multiplier = 50
-    shadow = []    
-    for i in [0..multiplier]
-      shadow.push  "#{(posX * i) / multiplier}px #{(posY * i) / multiplier}px 1px rgba(115, 115, 115, #{1 - (i/multiplier)})"
+    shadow = []   
+    multi = @state.multiples 
+    for i in [1..multi]
+      shadow.push  "#{(posX * i) / multi}px #{(posY * i) / multi}px 1px rgba(115, 115, 115, #{1 - (i/multi)})"
     return shadow
 
-  getInitialState: ->
-    shadow = @buildShadow(0, 0)
+  updateMultiples: (e) ->
+    @setState 
+      multiples: e.target.value
+    , @updateShadows
 
-    text: 'DYNAMIC TEXT SHADOW'
-    style: 
-      textShadow: shadow
-
-  onChange: (e) ->
+  textChange: (e) ->
     if e.target.value is ''
       @setState text: 'DYNAMIC TEXT SHADOW'
     else 
       @setState text: e.target.value  
 
   onMouseMove: (e) ->
-
     posX = (window.innerWidth / 2) - e.clientX 
     posY = (window.innerHeight / 2) - e.clientY   
 
-    shadow = @buildShadow(posX, posY)
+    @setState
+      curposX: posX
+      curposY: posY
 
+    @updateShadows(e)
+
+  updateShadows: ->
     @setState 
       style:
-        textShadow: shadow
-
+        textShadow: @buildShadow(@state.curposX, @state.curposY)
 
   render: ->
     <div 
       className="vertical-center-wrap"
       onMouseMove={@onMouseMove}>
-      <input className="text-input" placeholder="Add Custom Text" onChange={@onChange}/>        
-      <div className="vertical-center-item" style={@state.style}>{@state.text}</div>        
+
+        <input type="text" className="text-input" placeholder="Add Custom Text" onChange={@textChange}/>                
+        <input type="range" min="5" max="100" className="num-input" value={@state.multiples} onChange={@updateMultiples}/>   
+
+        <div className="vertical-center-item" style={@state.style}>{@state.text} x {@state.multiples}</div>    
+
     </div>
     
 ReactDOM.render(
