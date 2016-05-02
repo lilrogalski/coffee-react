@@ -4,7 +4,7 @@ ReactDOM = require 'react-dom'
 App = React.createClass
 
   getInitialState: ->
-    multiples: 50
+    multiples: 5
     text: 'DYNAMIC TEXT SHADOW'
     curposX: 100
     curposY: 100
@@ -13,7 +13,7 @@ App = React.createClass
     shadow = []   
     multi = @state.multiples 
     for i in [1..multi]
-      shadow.push  "#{(posX * i) / multi}px #{(posY * i) / multi}px 1px rgba(115, 115, 115, #{1 - (i/multi)})"
+      shadow.push  "#{(posX * i) / multi }px #{(posY * i) / multi }px 1px rgba(115, 115, 115, #{1 - (i/multi)})"
     return shadow
 
   updateMultiples: (e) ->
@@ -48,9 +48,10 @@ App = React.createClass
       onMouseMove={@onMouseMove}>
 
         <input type="text" className="text-input" placeholder="Add Custom Text" onChange={@textChange}/>                
-        <input type="range" min="5" max="100" className="num-input" value={@state.multiples} onChange={@updateMultiples}/>   
+        <input type="range" min="5" max="100" className="num-input" value={@state.multiples} onChange={@updateMultiples}/>
+        <span className="num-text">{@state.multiples}</span>   
 
-        <div className="vertical-center-item" style={@state.style}>{@state.text} x {@state.multiples}</div>    
+        <div className="vertical-center-item" style={@state.style}>{@state.text}</div>    
 
     </div>
     
