@@ -1,59 +1,37 @@
-// @import bootstrap/bootstrap
-// @import partials/reset
+@import bootstrap/bootstrap
+
 $black: #000
 $white: #fff
 
-*
-  margin: 0
-  padding: 0
-  font-family: Avenir
-
-.text-input 
-  position: fixed 
-  top: 0
-  left: 0
-  width: 200px 
-  padding: 10px
-  background: transparent
-  border: 0
-  font-size: 15px
-  &:focus 
-    outline: 0
-
-.num-input 
-  position: fixed 
-  top: 0
-  right: 10px
-  padding: 10px 0
-  width: 200px 
-  background: transparent
-  border: 0
-  font-size: 15px
-  &:focus 
-    outline: 0
-
-.num-text 
-  position: fixed 
-  top: 0
-  right: 220px
-  width: 10px
-  padding: 7px 10px
-  background: transparent
-  border: 0
-  font-size: 15px 
-  text-align: center 
-
-.vertical-center-wrap 
+.vc-wrap
   display: flex 
   align-items: center
   justify-content: center
-  height: 100vh
-  background: #e7e5e4
+  height: 100%
 
-.vertical-center-item
+.vc-item
   flex: none 
-  font-size: 60px 
-  font-weight: 500
-  letter-spacing: .05em
-  color: #131313
-  transition: text-shadow 10ms ease-in-out
+
+.search-input
+  width: 100%
+  border: 0
+  border-bottom: 1px solid #eee
+  padding: 20px 50px
+  font-size: 22px
+  &:focus 
+    outline: 0
+    box-shadow: none
+
+.fadeIn-enter 
+  opacity: .01
+
+.fadeIn-enter.fadeIn-enter-active 
+  opacity: 1
+  transition: opacity .3s ease-in
+
+.fadeIn-leave 
+  opacity: 1
+
+.fadeIn-leave.fadeIn-leave-active 
+  opacity: .01
+  transition: opacity .3s ease-in
