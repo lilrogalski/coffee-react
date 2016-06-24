@@ -44,7 +44,6 @@ gulp.task 'js', ->
 
   bundler.on 'update', bundle
   bundle()
-  .pipe connect.reload()
 
 gulp.task 'watch-js', ['js'], ->
   gulp.watch ['./app/scripts/**'], ['js']
