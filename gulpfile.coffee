@@ -9,6 +9,7 @@ sass = require 'gulp-sass'
 postcss = require 'gulp-postcss'
 autoprefixer = require 'autoprefixer'
 cssnano = require 'cssnano'
+uglify = require 'gulp-uglify'
 
 gulp.task 'server', ->
 
@@ -16,6 +17,7 @@ gulp.task 'server', ->
     root: 'public'
     port: 3001
     livereload: true
+    fallback: 'public/index.html'
 
 
 gulp.task 'js', ->
@@ -26,7 +28,7 @@ gulp.task 'js', ->
     fullPaths: true
     entries: ['./app/scripts/index.cjsx']
     extensions: ['.coffee', '.cjsx']
-    debug: true
+    debug: false
 
   bundle = ->
 
@@ -44,6 +46,7 @@ gulp.task 'js', ->
 
   bundler.on 'update', bundle
   bundle()
+  .pipe connect.reload()
 
 gulp.task 'watch-js', ['js'], ->
   gulp.watch ['./app/scripts/**'], ['js']
@@ -61,7 +64,13 @@ gulp.task 'css', ->
     .pipe connect.reload()
 
 gulp.task 'watch-sass', ->
-  gulp.watch './app/styles/*.sass', [ 'css' ]
+  gulp.watch ['./app/styles/*.sass','./app/styles/partials/*.sass'], [ 'css' ]
+
+gulp.task 'compress', ->
+  gulp
+    .src('public/*.js')
+    .pipe uglify()
+    .pipe gulp.dest('public')
 
 gulp.task 'default', ['server', 'watch-js', 'watch-sass']
 
