@@ -19,6 +19,7 @@
     "gulp-cjsx": "^3.0.0",
     "gulp-postcss": "^6.1.0",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
     "gulp-util": "^3.0.7",
     "jquery": "^2.2.3",
     "precss": "^1.4.0",
