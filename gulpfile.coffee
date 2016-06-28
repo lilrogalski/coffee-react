@@ -15,10 +15,9 @@ gulp.task 'server', ->
 
   connect.server
     root: 'public'
-    port: 3001
+    port: 8888
     livereload: true
     fallback: 'public/index.html'
-
 
 gulp.task 'js', ->
 
@@ -48,9 +47,6 @@ gulp.task 'js', ->
   bundle()
   .pipe connect.reload()
 
-gulp.task 'watch-js', ['js'], ->
-  gulp.watch ['./app/scripts/**'], ['js']
-
 gulp.task 'css', ->
   processors = [
     autoprefixer
@@ -72,9 +68,9 @@ gulp.task 'compress', ->
     .pipe uglify()
     .pipe gulp.dest('public')
 
-gulp.task 'default', ['server', 'watch-js', 'watch-sass']
+gulp.task 'default', ['server', 'js', 'watch-sass']
 
-gulp.task 'heroku', ->
+gulp.task 'static', ->
   connect.server
     root: 'public'
     port: process.env.PORT or 5000
