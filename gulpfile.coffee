@@ -51,7 +51,7 @@ gulp.task 'css', ->
     .pipe connect.reload()
 
 gulp.task 'watch-sass', ->
-  gulp.watch ['./app/styles/*.sass','./app/styles/partials/*.sass'], [ 'css' ]
+  gulp.watch ['./app/styles/**/*.sass'], [ 'css' ]
 
 gulp.task 'compress', ->
   gulp
