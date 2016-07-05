@@ -11,14 +11,6 @@ autoprefixer = require 'autoprefixer'
 cssnano = require 'cssnano'
 uglify = require 'gulp-uglify'
 
-gulp.task 'server', ->
-
-  connect.server
-    root: 'public'
-    port: 8888
-    livereload: true
-    fallback: 'public/index.html'
-
 gulp.task 'js', ->
 
   bundler = watchify browserify
@@ -45,7 +37,6 @@ gulp.task 'js', ->
 
   bundler.on 'update', bundle
   bundle()
-  .pipe connect.reload()
 
 gulp.task 'css', ->
   processors = [
@@ -69,6 +60,14 @@ gulp.task 'compress', ->
     .pipe gulp.dest('public')
 
 gulp.task 'default', ['server', 'js', 'watch-sass']
+
+gulp.task 'server', ->
+
+  connect.server
+    root: 'public'
+    port: 8888
+    livereload: true
+    fallback: 'public/index.html'
 
 gulp.task 'static', ->
   connect.server
